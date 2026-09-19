@@ -43,6 +43,7 @@
             cp ${./tts_engines.py} $out/share/latin/tts_engines.py
             cp ${./read_aloud.py} $out/share/latin/read_aloud.py
             cp ${./study.py} $out/share/latin/study.py
+            cp ${./study_sentences.py} $out/share/latin/study_sentences.py
             cp ${./dcc-core-vocabulary.csv} $out/share/latin/dcc-core-vocabulary.csv
             cp ${./latin-core-1000.json} $out/share/latin/latin-core-1000.json
             cp ${./latin-core-1000.csv} $out/share/latin/latin-core-1000.csv

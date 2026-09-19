@@ -13,12 +13,14 @@ import unicodedata
 from dataclasses import dataclass
 from pathlib import Path
 
+from study_sentences import english_context, latin_context
+
 ROOT = Path(os.environ["LATIN_ROOT"]) if "LATIN_ROOT" in os.environ else Path(__file__).parent
 DEFAULT_JSON = ROOT / "latin-core-1000.json"
 PROGRESS_FILE = Path.cwd() / ".latin-study-progress.json"
 PROGRESS_VERSION = 2
 DEFAULT_FROM_RANK = 1
-DEFAULT_TO_RANK = 100
+DEFAULT_TO_RANK = 10
 
 CASE_ORDER = ["Nom", "Gen", "Dat", "Acc", "Abl", "Voc"]
 NUMBER_ORDER = ["Sing", "Plur"]
@@ -425,14 +427,27 @@ def prompt_line() -> str | None:
 
 def print_drill(drill: FormDrill, *, remaining: int, total: int) -> None:
     print()
-    print(f"[{remaining}/{total}]  #{drill.rank}  {drill.lemma}  ({drill.part_of_speech})")
-    print(f"English: {drill.english}")
+    print(f"[{remaining}/{total}]  #{drill.rank}  ({drill.part_of_speech})")
+    print(f"English: {english_context(drill)}")
     print(f"Give: {drill.form_prompt}")
     print(f"Class: {drill.morph_class}")
 
 
 def reveal_drill(drill: FormDrill) -> None:
     print(f"Answer: {drill.latin_form}")
+    print(f"Latin: {latin_context(drill)}")
+
+
+def show_latin_sentence(drill: FormDrill) -> None:
+    print(f"Latin: {latin_context(drill)}")
+
+
+def skip_remaining_forms(drills: list[FormDrill], index: int, rank: int) -> int:
+    """Advance past unattempted forms of the same vocabulary entry."""
+    index += 1
+    while index < len(drills) and drills[index].rank == rank:
+        index += 1
+    return index
 
 
 def run_session(
@@ -443,8 +458,10 @@ def run_session(
     total_forms: int,
 ) -> tuple[set[str], bool]:
     total = len(drills)
+    index = 0
 
-    for index, drill in enumerate(drills):
+    while index < len(drills):
+        drill = drills[index]
         remaining = total - index
         print_drill(drill, remaining=remaining, total=total)
 
@@ -464,7 +481,8 @@ def run_session(
                 reveal_drill(drill)
                 continue
             if lowered in {"s", "skip"}:
-                print("Skipped — will come back next pass.")
+                print("Skipped — moving to next word.")
+                index = skip_remaining_forms(drills, index, drill.rank)
                 break
 
             if drill.check(answer):
@@ -473,13 +491,18 @@ def run_session(
                     save_progress(mastered, total_forms=total_forms)
                     scoped_done = sum(1 for k in scoped_form_keys if k in mastered)
                     print(f"✓ Correct — {drill.latin_form}")
+                    show_latin_sentence(drill)
                     print(f"  Saved ({scoped_done}/{total_forms} forms mastered in range).")
                 else:
                     print(f"✓ Correct — {drill.latin_form}")
+                    show_latin_sentence(drill)
+                index += 1
                 break
 
             print(f"✗ Not quite. Expected: {drill.latin_form}")
-            print("  Will come back next pass.")
+            show_latin_sentence(drill)
+            print("  Moving to next word — missed forms come back next pass.")
+            index = skip_remaining_forms(drills, index, drill.rank)
             break
 
     return mastered, True
@@ -508,10 +531,10 @@ def main() -> None:
             "During a session:\n"
             "  type the Latin form and press Enter\n"
             "  ?       reveal the answer (form stays in rotation)\n"
-            "  skip    try again on the next pass\n"
+            "  skip    skip this word's remaining forms (next pass)\n"
             "  quit    save and exit\n"
             "\n"
-            "By default, studies ranks 1–100 and loops until every form in that\n"
+            "By default, studies ranks 1–10 and loops until every form in that\n"
             "range is mastered. Progress is saved per form in\n"
             ".latin-study-progress.json.\n"
             "\n"
@@ -539,7 +562,7 @@ def main() -> None:
     parser.add_argument(
         "--all-words",
         action="store_true",
-        help="Study the full vocabulary list instead of the first 100 words",
+        help="Study the full vocabulary list instead of the first 10 words",
     )
     parser.add_argument("--shuffle", action="store_true", help="Randomize drill order")
     parser.add_argument("--reset", action="store_true", help="Clear saved progress")
