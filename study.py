@@ -428,6 +428,7 @@ def prompt_line() -> str | None:
 def print_drill(drill: FormDrill, *, remaining: int, total: int) -> None:
     print()
     print(f"[{remaining}/{total}]  #{drill.rank}  ({drill.part_of_speech})")
+    print(f"Word: {drill.english}")
     print(f"English: {english_context(drill)}")
     print(f"Give: {drill.form_prompt}")
     print(f"Class: {drill.morph_class}")
