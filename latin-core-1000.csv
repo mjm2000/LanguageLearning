@@ -1,0 +1,998 @@
+rank,headword,lemma,translation,part_of_speech,declension_or_conjugation,semantic_group,form_count
+1,et,et,and,Conjunction,,Conjunctions/Adverbs,0
+2,sum esse fuī futūrum,sum,"be, exist; fut. infin. often = fore, impf. subj. often = forem for essem",Verb: Irregular,Irregular,Life and Being,143
+3,quī quae quod,quī,"who, which, what",Pronoun,Pronoun,Pronouns/Interrogatives,20
+4,que,que,and (postpositive enclitic),Conjunction,,Conjunctions/Adverbs,0
+5,in,in,"in, on (+ abl.); into, onto (+ acc)",Preposition,,Place,0
+6,nōn,nōn,not,Adverb,,Conjunctions/Adverbs,0
+7,hic haec hoc,hic,"this, these",Pronoun,Pronoun,Pronouns/Interrogatives,2
+8,ille illa illud,ille,that,Pronoun,Pronoun,Pronouns/Interrogatives,22
+9,tū tuī tibi tē,tū,you (sing.),Pronoun,Pronoun,Pronouns/Interrogatives,7
+10,cum,cum,"with (prep. + abl.); when, since, although (conjunction + subj.)",Preposition,,Conjunctions/Adverbs,0
+11,ego meī mihi mē,ego,"I, me",Pronoun,Pronoun,Pronouns/Interrogatives,6
+13,is ea id,is,"he, she, it",Pronoun,Pronoun,Pronouns/Interrogatives,25
+14,ad,ad,"to, up to, towards (+acc.)",Preposition,,Place,0
+15,"ut, utī","ut,","as (+ indic.); so that, with the result that (+ subj.); (in questions) in what manner, how; (exclam.) to what an extent! how!",Adverb,,Conjunctions/Adverbs,0
+16,sī,sī,if,Conjunction,,Conjunctions/Adverbs,0
+17,sui sibi sē/sēsē,sui,"him- her- itself, themselves",Pronoun,Pronoun,Pronouns/Interrogatives,6
+18,omnis -e,omnis,"all, every, as a whole",Adjective: 3rd Declension,3rd Declension,Measurement,73
+19,nec,nec,"and not, nor; nec ... nec, neither ... nor; → neque",Conjunction,,Conjunctions/Adverbs,0
+20,sed,sed,but,Conjunction,,Conjunctions/Adverbs,0
+21,ā ab abs,ā,"from, by (+abl.)",Preposition,,Place,0
+22,ipse ipsa ipsum,ipse,him- her- itself,Pronoun,Pronoun,Pronouns/Interrogatives,22
+23,possum posse potuī,possum,be able,Verb: Irregular,Irregular,Making/Doing,65
+24,aut,aut,or,Conjunction,,Conjunctions/Adverbs,0
+25,māgnus -a -um,māgnus,great,Adjective: 1st and 2nd Declension,1st and 2nd Declension,Measurement,84
+26,"ex, ē","ex,","out of, from (+ abl.)",Preposition,,Place,0
+27,suus -a -um,suus,"his own, her own, its own",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Pronouns/Interrogatives,84
+28,dō dare dedī datum,dō,give,Verb: 1st Conjugation,1st Conjugation,Social Life,227
+29,quam,quam,how?; (after comparative) than,Adverb,,Pronouns/Interrogatives,0
+30,per,per,through (+acc.),Preposition,,Place,0
+31,videō vidēre vīdī vīsum,videō,see,Verb: 2nd Conjugation,2nd Conjugation,Vision,228
+32,faciō facere fēcī factum,faciō,"do, make",Verb: 3rd Conjugation -iō,3rd Conjugation -iō,Making/Doing,310
+33,dīcō dīcere dīxī dictum,dīcō,"say; causam dīcere, plead a case; diem dīcere, appoint a day",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Speech/Oratory,485
+34,iam,iam,now; already,Adverb,,Time,0
+35,atque,atque,"and in addition, and also, and; (after comparatives) than; simul atque, as soon as; → ac",Conjunction,,Conjunctions/Adverbs,0
+36,ac,ac,"and in addition, and also, and; (after comparatives) than; simul ac, as soon as; → atque",Conjunction,,Conjunctions/Adverbs,0
+37,alius -a -ud,alius,"other, another; ālias: at another time",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Pronouns/Interrogatives,81
+38,rēs reī f.,rēs,"thing (rēs pūblica, commonwealth; rēs familiāris, family property, estate; rēs mīlitāris, art of war; rēs novae, revolution)",Noun: 5th Declension,5th Declension,Life and Being,16
+39,habeō habēre habuī habitum,habeō,"have, hold",Verb: 2nd Conjugation,2nd Conjugation,Other Senses,227
+40,animus -ī m.,animus,"spirit, mind",Noun: 2nd Declension,2nd Declension,Life and Being,12
+41,meus -a -um,meus,my,Pronoun,Pronoun,Pronouns/Interrogatives,84
+42,deus -ī m.; dea -ae f.,deus,god; goddess,Noun: 2nd Declension,2nd Declension,Religion,12
+43,multus -a -um,multus,"much, many; multō, by far",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Measurement,64
+44,tuus -a -um,tuus,your,Adjective: 1st and 2nd Declension,1st and 2nd Declension,Pronouns/Interrogatives,84
+45,ferō ferre tulī lātum,ferō,"bear, carry, endure",Verb: Irregular,Irregular,Verbs of Transport,259
+46,dē,dē,"down from, about, concerning (+ abl.)",Preposition,,Place,0
+47,nē,nē,"lest, that not",Conjunction,,Conjunctions/Adverbs,0
+48,manus -ūs f.,manus,hand; band of men,Noun: 4th Declension,4th Declension,The Body,12
+49,nūllus -a -um,nūllus,"not any, no one",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Pronouns/Interrogatives,80
+50,nunc,nunc,now,Adverb,,Time,0
+51,nōs nostrum/nostrī nōbīs nōs,nōs,we,Pronoun,Pronoun,Pronouns/Interrogatives,7
+52,noster nostra nostrum,noster,our,Pronoun,Pronoun,Pronouns/Interrogatives,96
+53,ūnus -a -um,ūnus,one,Adjective: 1st and 2nd Declension,1st and 2nd Declension,Measurement,80
+54,diēs diēī m./f.,diēs,day,Noun: 5th Declension,5th Declension,Lengths of Time,12
+55,"nihil, nīl","nihil,",nothing; not at all,Noun: Indeclinable,,Measurement,0
+56,tum or tunc,tum,then,Adverb,,Time,0
+57,enim,enim,"for, indeed",Conjunction,,Pronouns/Interrogatives,0
+58,tamen,tamen,"nevertheless, still",Conjunction,,Conjunctions/Adverbs,0
+59,īdem eadem idem,īdem,the same,Pronoun,,Pronouns/Interrogatives,0
+60,rēx rēgis m.,rēx,king,Noun: 3rd Declension,3rd Declension,The City,12
+61,nam or namque,nam,"for, indeed, really",Conjunction,,Conjunctions/Adverbs,0
+62,locus -ī m.,locus,place; loca (n. pl.) region,Noun: 2nd Declension,2nd Declension,Geography,14
+63,veniō venīre vēnī ventum,veniō,come,Verb: 4th Conjugation,4th Conjugation,Motion,277
+64,inter,inter,"between, among; during (+ acc.)",Preposition,,Place,0
+65,pars partis f.,pars,part,Noun: 3rd Declension,3rd Declension,Measurement,12
+66,volō velle voluī,volō,"wish, be willing",Verb: Irregular,Irregular,Emotions,295
+67,etiam,etiam,"also, even",Adverb,,Conjunctions/Adverbs,0
+68,bonus -a -um,bonus,good,Adjective: 1st and 2nd Declension,1st and 2nd Declension,Personality Traits/Characteristics,84
+69,agō agere ēgī āctum,agō,"drive, do, act",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Verbs of Compelling/Directing,260
+70,terra -ae f.,terra,land,Noun: 1st Declension,1st Declension,Earth and Water,12
+71,pater patris m.,pater,"father, ancestor",Noun: 3rd Declension,3rd Declension,The Household,12
+72,neque,neque,"and not, nor; neque ... neque, neither ... nor; → nec",Conjunction,,Conjunctions/Adverbs,0
+73,domus -ūs f.,domus,"house, home",Noun: 4th Declension,4th Declension,The House,24
+74,at,at,"but, but yet",Conjunction,,Conjunctions/Adverbs,0
+75,corpus corporis n.,corpus,body,Noun: 3rd Declension,3rd Declension,The Body,12
+76,quoque,quoque,"also, too",Conjunction,,Conjunctions/Adverbs,0
+77,aliquis -quae -quod,aliquis,"some, any; si quis, si quid: anyone who, anything that",Pronoun,Pronoun,Pronouns/Interrogatives,20
+78,tōtus -a -um,tōtus,"whole, entire",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Measurement,80
+79,sīc,sīc,"in this manner, thus; sīc ... ut: in the same way as",Adverb,,Conjunctions/Adverbs,0
+80,hīc,hīc,here; hinc: from here,Adverb,,Place,0
+81,iste ista istud,iste,"that, that of yours; adv. istīc or istūc: over there; istinc: from over there",Pronoun,Pronoun,Pronouns/Interrogatives,22
+82,urbs urbis f.,urbs,city,Noun: 3rd Declension,3rd Declension,The City,12
+83,petō petere petīvī petītum,petō,"seek, aim at",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Motion,260
+84,iubeō iubēre iussī iussum,iubeō,"bid, order",Verb: 2nd Conjugation,2nd Conjugation,Justice,227
+85,vir virī m.,vir,man,Noun: 2nd Declension,2nd Declension,People,12
+86,bellum -ī n.,bellum,war,Noun: 2nd Declension,2nd Declension,War and Peace,14
+87,vīta -ae f.,vīta,life,Noun: 1st Declension,1st Declension,Life and Being,12
+88,homō hominis m.,homō,human being,Noun: 3rd Declension,3rd Declension,People,12
+89,tempus -oris n.,tempus,time,Noun: 3rd Declension,3rd Declension,Time,24
+90,magis,magis,more,Adverb,,Conjunctions/Adverbs,0
+91,prīmus -a -um,prīmus,first,Adjective: 1st and 2nd Declension,1st and 2nd Declension,Time,84
+92,ubi,ubi,"where, when",Adverb,,Place,0
+93,hostis -is m./f.,hostis,"stranger, enemy",Noun: 3rd Declension,3rd Declension,War and Peace,12
+94,an,an,or (in questions); utrum ... an: whether ... or,Conjunction,,Conjunctions/Adverbs,0
+95,mors mortis f.,mors,death,Noun: 3rd Declension,3rd Declension,Life and Being,12
+96,tam,tam,"so, so much",Adverb,,Conjunctions/Adverbs,0
+97,eō īre iī/īvī itum,eō,go,Verb: Irregular,Irregular,Motion,421
+98,arma -ōrum n. pl.,arma,"arms, weapons",Noun: 2nd Declension,,War and Peace,0
+99,superus -a -um,superus,"situated above, upper",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Religion,84
+100,"nisi, nī","nisi,","if not, unless",Conjunction,,Conjunctions/Adverbs,0
+101,vincō vincere vīcī victum,vincō,conquer,Verb: 3rd Conjugation -ō,3rd Conjugation -ō,War and Peace,260
+102,pōnō pōnere posuī positum,pōnō,"put, place; put aside",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Verbs of Transport,358
+103,dum,dum,while (+ indic.); until (+ subj.); provided that (+ subj.),Conjunction,,Time,0
+104,sine,sine,without (+ abl.),Preposition,,Non-Directional Prepositions,0
+105,tantus -a -um,tantus,"so great, so much; (as pronoun) such a quantity, so much; tantī, at such a price, of such worth",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Measurement,84
+106,teneō -ēre -uī tentum,teneō,"hold, keep",Verb: 2nd Conjugation,2nd Conjugation,Other Senses,227
+107,causa -ae f.,causa,"cause, reason; causā + preceding genitive, for the sake of",Noun: 1st Declension,1st Declension,Speech/Oratory,12
+108,sequor sequī secūtus sum,sequor,follow,Verb: Deponent,Deponent,Motion,228
+109,crēdō crēdere crēdidī crēditum,crēdō,believe,Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Education/Knowledge,260
+110,accipiō -cipere -cēpī -ceptum,accipiō,receive,Verb: 3rd Conjugation -iō,3rd Conjugation -iō,Social Life,260
+111,virtūs -ūtis f.,virtūs,"valor, manliness, virtue",Noun: 3rd Declension,3rd Declension,Personality Traits/Characteristics,12
+112,ante,ante,"before, in front of (adv. and prep. + acc.)",Preposition,,Time,0
+113,quaerō -rere -sīvī -sītum,quaerō,"seek, inquire",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Education/Knowledge,260
+114,mittō mittere mīsī missum,mittō,"send, let go",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Verbs of Compelling/Directing,310
+115,vīs f.,vīs,"force; (acc.) vim, (abl.) vī; (pl.) vīrēs, strength",Noun: 3rd Declension,3rd Declension,War and Peace,22
+116,amor -ōris m.,amor,love,Noun: 3rd Declension,3rd Declension,Love,12
+117,caelum -ī n.,caelum,"sky, heavens",Noun: 2nd Declension,2nd Declension,Air and Fire,12
+118,sub,sub,"under, close to (+acc. or abl.)",Preposition,,Place,0
+119,nox noctis f.,nox,night,Noun: 3rd Declension,3rd Declension,Lengths of Time,14
+120,ita,ita,"thus, so",Adverb,,Conjunctions/Adverbs,0
+121,rēgnum -ī n.,rēgnum,"kingship, kingdom",Noun: 2nd Declension,2nd Declension,Geography,12
+122,populus -ī m.,populus,people,Noun: 2nd Declension,2nd Declension,The City,24
+123,autem,autem,"moreover, but, however",Conjunction,,Conjunctions/Adverbs,0
+124,caput capitis n.,caput,head,Noun: 3rd Declension,3rd Declension,The Body,12
+125,mare -is n.,mare,sea,Noun: 3rd Declension,3rd Declension,Earth and Water,12
+126,quīdam quaedam quoddam,quīdam,"a certain one, someone",Pronoun,Pronoun,Pronouns/Interrogatives,23
+127,māter mātris f.,māter,mother,Noun: 3rd Declension,3rd Declension,The Household,12
+128,prō,prō,"for, on behalf of, in proportion to (+abl.)",Preposition,,Non-Directional Prepositions,0
+129,quisquis quidquid,quisquis,"whoever, whichever",Pronoun,,Pronouns/Interrogatives,0
+130,vōs,vōs,"you (pl.); (gen.) vestrum/vestrī, (dat./abl.) vōbīs, (acc.) vōs",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Pronouns/Interrogatives,9
+131,capiō capere cēpī captum,capiō,seize,Verb: 3rd Conjugation -iō,3rd Conjugation -iō,War and Peace,312
+132,quia,quia,because,Conjunction,,Conjunctions/Adverbs,0
+133,dūcō dūcere dūxī ductum,dūcō,"lead; uxōrem dūcere, marry",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Verbs of Compelling/Directing,279
+134,ergō,ergō,therefore,Conjunction,,Conjunctions/Adverbs,0
+135,nōmen -inis n.,nōmen,name,Noun: 3rd Declension,3rd Declension,Social Life,12
+136,quidem,quidem,"certainly, at least",Adverb,,Conjunctions/Adverbs,0
+137,miser misera miserum,miser,"wretched, pitiable",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Emotions,84
+138,fortūna -ae f.,fortūna,fortune,Noun: 1st Declension,1st Declension,Religion,12
+139,novus -a -um,novus,new,Adjective: 1st and 2nd Declension,1st and 2nd Declension,Time,84
+140,gravis -e,gravis,"heavy, serious",Adjective: 3rd Declension,3rd Declension,Measurement,73
+141,vel,vel,"or else, or; even; vel ... vel: either … or",Conjunction,,Conjunctions/Adverbs,0
+142,longus -a -um,longus,"long, far",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Measurement,84
+143,parvus -a -um,parvus,small,Adjective: 1st and 2nd Declension,1st and 2nd Declension,Measurement,85
+144,relinquō -linquere -līquī -lictum,relinquō,abandon,Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Motion,260
+145,saepe,saepe,often,Adverb,,Time,0
+146,fīō fierī factus sum,fīō,"become, happen, be done",Verb: Irregular,Irregular,Life and Being,218
+147,ōs ōris n.,ōs,"mouth, face",Noun: 3rd Declension,3rd Declension,The Body,30
+148,alter altera alterum,alter,other of two,Adjective: 1st and 2nd Declension,1st and 2nd Declension,Measurement,80
+149,semper,semper,"always, ever",Adverb,,Time,0
+150,deinde/dein,deinde/dein,"then, next",Adverb,,Time,0
+151,ignis -is m.,ignis,fire,Noun: 3rd Declension,3rd Declension,Air and Fire,12
+152,modo,modo,"just, just now; modo ... modo: now ... now, at one moment ... at another, sometimes ... sometimes",Adverb,,Time,0
+153,timeō -ēre -uī,timeō,"to fear, to dread",Verb: 2nd Conjugation,2nd Conjugation,Emotions,161
+154,scelus -eris n.,scelus,"crime, sin",Noun: 3rd Declension,3rd Declension,Justice,12
+155,dēbeō dēbēre dēbuī dēbitum,dēbeō,"owe, be obliged",Verb: 2nd Conjugation,2nd Conjugation,Business/Money,227
+156,vīvō vīvere vīxī vīctum,vīvō,live,Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Life and Being,260
+157,fātum -ī n.,fātum,fate; death,Noun: 2nd Declension,2nd Declension,Religion,12
+158,vocō -āre,vocō,call,Verb: 1st Conjugation,1st Conjugation,Speech/Oratory,227
+159,altus -a -um,altus,"high, lofty; deep",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Geography,84
+160,parō -āre,parō,"prepare, acquire; parātus -a -um, ready",Verb: 1st Conjugation,1st Conjugation,Making/Doing,227
+161,mīles -itis m.,mīles,soldier,Noun: 3rd Declension,3rd Declension,War and Peace,12
+162,medius -a -um,medius,"middle, central",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Place,84
+163,"inquam, inquis, inquit, inquiunt:","inquam,",say (used with direct speech),Verb: Irregular,,Speech/Oratory,0
+164,post,post,after (adv. and prep. +acc.),Preposition,,Time,0
+165,audiō -īre -īvī/-iī -ītum,audiō,"hear, listen to",Verb: 4th Conjugation,4th Conjugation,Other Senses,277
+166,putō -āre,putō,"think, suppose",Verb: 1st Conjugation,1st Conjugation,Education/Knowledge,227
+167,annus -ī m.,annus,year,Noun: 2nd Declension,2nd Declension,Lengths of Time,12
+168,stō stāre stetī statum,stō,stand,Verb: 1st Conjugation,1st Conjugation,Life and Being,227
+169,vōx vōcis f.,vōx,"voice, utterance",Noun: 3rd Declension,3rd Declension,Speech/Oratory,12
+170,genus generis n.,genus,"origin, lineage, kind",Noun: 3rd Declension,3rd Declension,The Household,12
+171,referō referre rettulī relātum,referō,bring back; report,Verb: Irregular,Irregular,Verbs of Transport,291
+172,sciō -īre -īvī/-iī -ītum,sciō,know,Verb: 4th Conjugation,4th Conjugation,Education/Knowledge,293
+173,mēns mentis f.,mēns,mind,Noun: 3rd Declension,3rd Declension,The Body,13
+174,reddō -dere -didī -ditum,reddō,"return, give back",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Verbs of Transport,260
+175,licet licēre licuit licitum est,licet,it is permitted (+ dat. + infin.),Verb: Impersonal,,Justice,0
+176,sōlus -a -um,sōlus,"only, alone",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Measurement,80
+177,fugiō fugere fūgī fugitum,fugiō,"flee, escape",Verb: 3rd Conjugation -iō,3rd Conjugation -iō,Travel,260
+178,ūllus -a -um,ūllus,"any, anyone",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Pronouns/Interrogatives,80
+179,nēmō,nēmō,"no one (gen. nūllīus, dat. nūllī, abl. nūllō or nūllā → nūllus -a -um)",Pronoun,Pronoun,Pronouns/Interrogatives,12
+180,nātūra -ae f.,nātūra,nature,Noun: 1st Declension,1st Declension,Life and Being,12
+181,mōs mōris m.,mōs,"custom, habit; (pl.) character",Noun: 3rd Declension,3rd Declension,Social Life,12
+182,beneficium -ī n.,beneficium,"service, kindness",Noun: 2nd Declension,2nd Declension,Social Life,11
+183,pectus -oris n.,pectus,"chest, breast",Noun: 3rd Declension,3rd Declension,The Body,12
+184,fidēs -eī f.,fidēs,"trust, faith",Noun: 5th Declension,5th Declension,Personality Traits/Characteristics,16
+185,patior patī passus sum,patior,"permit, endure",Verb: Deponent,Deponent,Verbs of Compelling/Directing,228
+186,cūra -ae f.,cūra,"care, concern",Noun: 1st Declension,1st Declension,Love,12
+187,īra irae f.,īra,"wrath, anger",Noun: 1st Declension,1st Declension,Emotions,12
+188,verbum -ī n.,verbum,word,Noun: 2nd Declension,2nd Declension,Writing/Poetry,12
+189,prope,prope,"near, next; (comp.) propior, (superl.) proximus; (adv.) prope, nearly, almost",Preposition,,Place,0
+190,parēns -ntis m./f.,parēns,parent,Noun: 3rd Declension,3rd Declension,The Household,12
+191,puer puerī m.,puer,boy; slave,Noun: 2nd Declension,2nd Declension,People,12
+192,moveō -ēre mōvī mōtum,moveō,move,Verb: 2nd Conjugation,2nd Conjugation,Motion,227
+193,dolor -ōris m.,dolor,"pain, grief",Noun: 3rd Declension,3rd Declension,Emotions,12
+194,gēns gentis f.,gēns,"family, clan",Noun: 3rd Declension,3rd Declension,The Household,12
+195,modus -ī m.,modus,"measure, manner, kind",Noun: 2nd Declension,2nd Declension,Measurement,12
+196,via -ae f.,via,"way, street",Noun: 1st Declension,1st Declension,Travel,12
+197,quisque quaeque quidque,quisque,"each one, everyone",Pronoun,Pronoun,Pronouns/Interrogatives,23
+198,amīcus -a -um,amīcus,friendly; (as subst.) friend,Adjective: 1st and 2nd Declension,1st and 2nd Declension,Personality Traits/Characteristics,84
+199,pēs pedis m.,pēs,foot,Noun: 3rd Declension,3rd Declension,The Body,12
+200,imperium -ī n.,imperium,"command, power",Noun: 2nd Declension,2nd Declension,War and Peace,11
+201,labor -ōris m.,labor,"toil, exertion",Noun: 3rd Declension,3rd Declension,Business/Money,12
+202,ingēns ingentis,ingēns,"huge, enormous",Adjective: 3rd Declension,3rd Declension,Measurement,71
+203,tālis tāle,tālis,such,Adjective: 3rd Declension,3rd Declension,Measurement,73
+204,parum,parum,too little,Adverb,,Measurement,0
+205,apud,apud,"near, in the presence of (+acc.)",Preposition,,Place,0
+206,oculus -ī m.,oculus,eye,Noun: 2nd Declension,2nd Declension,The Body,12
+207,unda -ae f.,unda,"wave, flowing water, water",Noun: 1st Declension,1st Declension,Earth and Water,12
+208,itaque,itaque,"and so, therefore",Conjunction,,Conjunctions/Adverbs,0
+209,vultus -ūs m.,vultus,"look, expression, face",Noun: 4th Declension,4th Declension,The Body,12
+210,cadō cadere cecidī cāsum,cadō,"fall, be killed",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Violence,262
+211,nātus -ī m.,nātus,son,Noun: 2nd Declension,2nd Declension,The Household,22
+212,quis quid,quis,who? what? which?,Pronoun,Pronoun,Pronouns/Interrogatives,21
+213,trahō trahere trāxī trāctum,trahō,"drag, draw",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Verbs of Compelling/Directing,260
+214,sanguis -inis m.,sanguis,blood,Noun: 3rd Declension,3rd Declension,The Body,12
+215,metus -ūs m.,metus,"fear, dread",Noun: 4th Declension,4th Declension,Emotions,12
+216,"tantum, tantummodo","tantum,",only,Adverb,,Measurement,0
+217,cōnsilium -ī n.,cōnsilium,"plan; council, group of advisors",Noun: 2nd Declension,2nd Declension,The City,11
+218,coniunx coniugis m./f.,coniunx,"spouse, husband, wife",Noun: 3rd Declension,3rd Declension,The Household,12
+219,amō -āre,amō,to love; amāns -ntis m./f.: lover,Verb: 1st Conjugation,1st Conjugation,Love,277
+220,levis -e,levis,"light, trivial",Adjective: 3rd Declension,3rd Declension,Measurement,73
+221,duo duae duo,duo,two,Adjective: Numeral,Numeral,Measurement,70
+222,ferus -a -um,ferus,"wild, fierce; fera -ae f.: wild animal",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Animals/Plants,84
+223,poena -ae f.,poena,"penalty, punishment",Noun: 1st Declension,1st Declension,Justice,12
+224,castrum -ī n.,castrum,"fortress, (regularly plural, castra camp)",Noun: 2nd Declension,2nd Declension,War and Peace,12
+225,frāter frātris m.,frāter,brother,Noun: 3rd Declension,3rd Declension,The Household,12
+226,haud,haud,not,Adverb,,Conjunctions/Adverbs,0
+227,malus -a -um,malus,"bad, evil",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Personality Traits/Characteristics,52
+228,iaceō iacēre iacuī,iaceō,lie,Verb: 2nd Conjugation,2nd Conjugation,The House,227
+229,līber lībera līberum,līber,free; līberī (m. pl.): freeborn children,Adjective: 1st and 2nd Declension,1st and 2nd Declension,Justice,84
+230,iter itineris n.,iter,"journey, route",Noun: 3rd Declension,3rd Declension,Travel,12
+231,ferrum -ī n.,ferrum,"iron, iron weapon or implement",Noun: 2nd Declension,2nd Declension,Violence,12
+232,spēs speī f.,spēs,hope,Noun: 5th Declension,5th Declension,Emotions,12
+233,puella -ae f.,puella,girl; girl-friend,Noun: 1st Declension,1st Declension,People,12
+234,silva -ae f.,silva,"forest, grove",Noun: 1st Declension,1st Declension,Animals/Plants,12
+235,bene,bene,well,Adverb,,Personality Traits/Characteristics,0
+236,fīnis -is m.,fīnis,"end, boundary",Noun: 3rd Declension,3rd Declension,Geography,12
+237,gerō gerere gessī gestum,gerō,"bear, manage; bellum gerere, wage war",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,War and Peace,260
+238,ne (enclitic),ne,interrogative particle attached to the emphatic word in a question,Adverb,,Pronouns/Interrogatives,0
+239,dux ducis m./f.,dux,"leader, general",Noun: 3rd Declension,3rd Declension,War and Peace,12
+240,premō premere pressī pressum,premō,"press, pursue, overwhelm",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,War and Peace,260
+241,dominus -ī m.; domina -ae f.,dominus,"household master, lord; mistress",Noun: 2nd Declension,2nd Declension,The Household,12
+242,mōns montis m.,mōns,mountain,Noun: 3rd Declension,3rd Declension,Geography,12
+243,uterque utraque utrumque,uterque,each of two,Conjunction,,Measurement,0
+244,saevus -a -um,saevus,"fierce, raging, wrathful",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Personality Traits/Characteristics,84
+245,lītus -oris n.,lītus,shore,Noun: 3rd Declension,3rd Declension,Geography,12
+246,soleō -ēre -uī -itum,soleō,be accustomed,Verb: 2nd Conjugation,2nd Conjugation,Personality Traits/Characteristics,195
+247,mīlle (pl.) mīlia,mīlle,thousand,Adjective: Numeral,Numeral,Measurement,53
+248,equus -ī m.,equus,horse,Noun: 2nd Declension,2nd Declension,Animals/Plants,12
+249,dūrus -a -um,dūrus,"hard, tough, harsh",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Other Senses,84
+250,cōgō cōgere coēgī coāctum,cōgō,drive together; compel,Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Verbs of Compelling/Directing,260
+251,numquam,numquam,never,Adverb,,Time,0
+252,prīmum,prīmum,"at first, firstly",Adverb,,Time,0
+253,morior morī mortuus sum,morior,die,Verb: Deponent,Deponent,Life and Being,334
+254,carmen -inis n.,carmen,song,Noun: 3rd Declension,3rd Declension,Writing/Poetry,12
+255,tēlum -ī n.,tēlum,"missile, weapon, spear",Noun: 2nd Declension,2nd Declension,War and Peace,12
+256,ratiō -ōnis f.,ratiō,"method, plan, reason",Noun: 3rd Declension,3rd Declension,Education/Knowledge,12
+257,umbra -ae f.,umbra,"shade, shadow",Noun: 1st Declension,1st Declension,Vision,12
+258,ars artis f.,ars,skill,Noun: 3rd Declension,3rd Declension,Education/Knowledge,12
+259,tot,tot,so many,Adverb,,Measurement,0
+260,dexter -tra -trum,dexter,right; dextera -ae f.: right hand,Adjective: 1st and 2nd Declension,1st and 2nd Declension,Place,114
+261,sīgnum -ī n.,sīgnum,"sign, standard, mark",Noun: 2nd Declension,2nd Declension,War and Peace,12
+262,laetus -a -um,laetus,"glad, joyful",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Emotions,84
+263,quālis -e,quālis,of what kind? what?,Pronoun,Pronoun,Pronouns/Interrogatives,73
+264,lēx lēgis f.,lēx,law,Noun: 3rd Declension,3rd Declension,Justice,27
+265,perīculum -ī n.,perīculum,danger,Noun: 2nd Declension,2nd Declension,Violence,12
+266,nāscor nāscī nātus sum,nāscor,be born,Verb: Deponent,Deponent,Life and Being,228
+267,exercitus -ūs m.,exercitus,army,Noun: 4th Declension,4th Declension,War and Peace,12
+268,pereō -īre -iī -itum,pereō,"perish, be lost",Verb: Irregular,Irregular,Violence,196
+269,ventus -ī m.,ventus,wind,Noun: 2nd Declension,2nd Declension,Air and Fire,12
+270,audeō audēre ausus sum,audeō,"dare, be eager",Verb: 2nd Conjugation,2nd Conjugation,Personality Traits/Characteristics,227
+271,contrā,contrā,"against, opposite (adv. and prep. +acc.)",Preposition,,Place,0
+272,aqua -ae f.,aqua,water,Noun: 1st Declension,1st Declension,Earth and Water,12
+273,rapiō rapere rapuī raptum,rapiō,"seize, tear away",Verb: 3rd Conjugation -iō,3rd Conjugation -iō,Violence,260
+274,simul,simul,at the same time,Adverb,,Time,0
+275,trīstis -e,trīstis,"sad, solemn, grim",Adjective: 3rd Declension,3rd Declension,Emotions,73
+276,mūnus mūneris n.,mūnus,"gift, offering; duty, obligation; (pl.) gladiatorial show",Noun: 3rd Declension,3rd Declension,Social Life,12
+277,iuvenis -is m.,iuvenis,youth,Noun: 3rd Declension,3rd Declension,People,12
+278,fāma -ae f.,fāma,"rumor, fame",Noun: 1st Declension,1st Declension,Speech/Oratory,12
+279,adsum adesse affuī,adsum,be present,Verb: Irregular,Irregular,Place,242
+280,quisquam quicquam/quidquam,quisquam,"any (single) person, anyone at all",Pronoun,Pronoun,Pronouns/Interrogatives,23
+280,vērō,vērō,"in fact, certainly, without doubt",Adverb,,Conjunctions/Adverbs,0
+281,pār paris,pār,equal,Adjective: 3rd Declension,3rd Declension,Measurement,51
+282,vester vestra vestrum,vester,your,Adjective: 1st and 2nd Declension,1st and 2nd Declension,Pronouns/Interrogatives,84
+283,flūmen -inis n.,flūmen,"stream, river",Noun: 3rd Declension,3rd Declension,Earth and Water,12
+284,quīcumque quaecumque quodcumque,quīcumque,"who-, whatever",Pronoun,Pronoun,Pronouns/Interrogatives,23
+285,certus -a -um,certus,"sure, fixed",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Measurement,84
+286,fortis -e,fortis,brave,Adjective: 3rd Declension,3rd Declension,Personality Traits/Characteristics,73
+287,placeō placēre placuī placitum,placeō,please,Verb: 2nd Conjugation,2nd Conjugation,Social Life,227
+288,vertō vertere vertī versum,vertō,turn,Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Motion,260
+289,servō -āre,servō,"save, watch over",Verb: 1st Conjugation,1st Conjugation,The Household,277
+290,honor -ōris m.,honor,"honor, glory; office, post",Noun: 3rd Declension,3rd Declension,The City,12
+291,dīgnus -a -um,dīgnus,worthy,Adjective: 1st and 2nd Declension,1st and 2nd Declension,Personality Traits/Characteristics,84
+292,cūnctus -a -um,cūnctus,entire all together,Adjective: 1st and 2nd Declension,1st and 2nd Declension,Measurement,84
+293,tollō tollere sustulī sublātum,tollō,"raise up, destroy",Verb: Irregular,Irregular,Violence,260
+294,negō -āre,negō,"deny, refuse",Verb: 1st Conjugation,1st Conjugation,Speech/Oratory,277
+295,vetus veteris,vetus,old,Adjective: 3rd Declension,3rd Declension,Time,71
+296,eques equitis m.,eques,"horseman, knight",Noun: 3rd Declension,3rd Declension,War and Peace,12
+297,trādō -dere -didī -ditum,trādō,"hand over, yield",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Business/Money,260
+298,flamma -ae f.,flamma,"flame, fire",Noun: 1st Declension,1st Declension,Air and Fire,12
+299,lūx lūcis f.,lūx,light of day,Noun: 3rd Declension,3rd Declension,Air and Fire,12
+300,unde,unde,from where,Adverb,,Place,0
+301,redeō -īre -iī -itum,redeō,"go back, return",Verb: Irregular,Irregular,Motion,196
+302,sentiō sentīre sēnsī sēnsum,sentiō,"perceive, feel, hear, see",Verb: 4th Conjugation,4th Conjugation,Other Senses,277
+303,aurum -ī n.,aurum,gold,Noun: 2nd Declension,2nd Declension,Business/Money,12
+304,cēdō cēdere cessī cessum,cēdō,"go, move; yield",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,War and Peace,262
+305,quō,quō,"for which reason; to or in what place; to what end, for what purpose?",Adverb,,Pronouns/Interrogatives,0
+306,saxum -ī n.,saxum,"rock, cliff, crag",Noun: 2nd Declension,2nd Declension,Earth and Water,12
+307,ve,ve,or (postpositive enclitic),Conjunction,,Conjunctions/Adverbs,0
+308,aetās -tātis f.,aetās,"age, time of life",Noun: 3rd Declension,3rd Declension,Lengths of Time,12
+309,fēlīx -īcis,fēlīx,lucky,Adjective: 3rd Declension,3rd Declension,Personality Traits/Characteristics,71
+310,loquor loquī locūtus sum,loquor,"speak, talk",Verb: Deponent,Deponent,Speech/Oratory,228
+311,quantus -a -um,quantus,"(interr.) how great? (rel.) of what size, amount, etc. (as subst.) what amount? (rel.) which amount; quantī, at what price? (rel.) at which price",Pronoun,Pronoun,Pronouns/Interrogatives,84
+312,coepī coepisse coeptus,coepī,begin,Verb: Irregular,,Time,0
+313,igitur,igitur,therefore,Conjunction,,Conjunctions/Adverbs,0
+314,iūs iūris n.,iūs,"right, justice, law",Noun: 3rd Declension,3rd Declension,Justice,12
+315,mūtō -āre,mūtō,change,Verb: 1st Conjugation,1st Conjugation,Making/Doing,227
+316,inveniō -venīre -vēnī -ventum,inveniō,find; discover,Verb: 4th Conjugation,4th Conjugation,Travel,277
+317,prīnceps -cipis,prīnceps,"first, chief; (as subst.) leader, person in charge",Adjective: 3rd Declension,3rd Declension,The City,71
+318,ops opis f.,ops,"assistance, resources",Noun: 3rd Declension,3rd Declension,Business/Money,12
+319,recipiō -cipere -cēpī -ceptum,recipiō,"take back, receive; sē recipere, betake oneself, go",Verb: 3rd Conjugation -iō,3rd Conjugation -iō,Verbs of Transport,260
+320,sōl sōlis m.,sōl,sun,Noun: 3rd Declension,3rd Declension,Air and Fire,12
+321,cōnsul -ulis m.,cōnsul,consul,Noun: 3rd Declension,3rd Declension,The City,12
+322,orbis -is m.,orbis,circle; orbis terrārum: world,Noun: 3rd Declension,3rd Declension,Geography,12
+323,turba -ae f.,turba,"crowd, uproar",Noun: 1st Declension,1st Declension,The City,12
+324,ager agrī m.,ager,field,Noun: 2nd Declension,2nd Declension,Animals/Plants,14
+325,solvō solvere solvī solūtum,solvō,"release, set sail",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Travel,260
+326,vitium -ī n.,vitium,"flaw, fault, crime",Noun: 2nd Declension,2nd Declension,Justice,11
+327,vulnus -eris n.,vulnus,wound,Noun: 3rd Declension,3rd Declension,Violence,12
+328,inde,inde,"from there, from then",Adverb,,Place,0
+329,senātus -ūs m.,senātus,senate,Noun: 4th Declension,4th Declension,The City,12
+330,ūtor ūtī ūsus sum,ūtor,"use, consume, employ (+ abl.)",Verb: Deponent,Deponent,Making/Doing,228
+331,cōpia -ae f.,cōpia,abundance; (pl.) troops,Noun: 1st Declension,1st Declension,War and Peace,12
+332,opus operis n.,opus,work,Noun: 3rd Declension,3rd Declension,Business/Money,12
+333,colō colere coluī cultum,colō,"inhabit, cultivate",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Animals/Plants,485
+334,vōtum -ī n.,vōtum,"solemn promise, vow; hope",Noun: 2nd Declension,2nd Declension,Religion,12
+335,iugum -ī n.,iugum,"yoke; ridge, chain of hills",Noun: 2nd Declension,2nd Declension,Animals/Plants,12
+336,quā,quā,"where, how",Pronoun,Pronoun,Pronouns/Interrogatives,2
+337,tellus tellūris f.,tellus,earth,Noun: 3rd Declension,3rd Declension,Earth and Water,12
+338,numerus -ī m.,numerus,"number, amount",Noun: 2nd Declension,2nd Declension,Measurement,12
+339,cōgnōscō -gnōscere -gnōvī -gnitum,cōgnōscō,"learn, understand",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Education/Knowledge,260
+340,victor -ōris m.,victor,conqueror,Noun: 3rd Declension,3rd Declension,War and Peace,12
+341,"satis, sat","satis,","enough, sufficient, sufficiently",Adverb,,Measurement,0
+342,patria -ae f.,patria,"fatherland, country",Noun: 1st Declension,1st Declension,Geography,12
+343,seu,seu,whether; seu ... seu: whether ... or → sīve,Conjunction,,Conjunctions/Adverbs,0
+344,cāsus -ūs m.,cāsus,"a fall; chance, accident",Noun: 4th Declension,4th Declension,Violence,12
+345,frangō frangere frēgī frāctum,frangō,"break, shatter",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Violence,260
+346,cīvitās -ātis f.,cīvitās,"citizenship, state",Noun: 3rd Declension,3rd Declension,The City,12
+347,nōscō nōscere nōvī nōtum,nōscō,"learn, know",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Education/Knowledge,260
+348,proelium -ī n.,proelium,battle,Noun: 2nd Declension,2nd Declension,War and Peace,11
+349,ēripiō -ripere -ripuī -reptum,ēripiō,"snatch away, rescue, save",Verb: 3rd Conjugation -iō,3rd Conjugation -iō,Verbs of Transport,260
+350,mundus -ī m.,mundus,"world, universe, heavens",Noun: 2nd Declension,2nd Declension,Earth and Water,12
+351,cursus -ūs m.,cursus,"course, advance",Noun: 4th Declension,4th Declension,Athletics,12
+352,vix,vix,scarcely,Adverb,,Conjunctions/Adverbs,0
+353,nāvis -is f.,nāvis,ship,Noun: 3rd Declension,3rd Declension,Travel,12
+354,lacrima -ae f.,lacrima,tear,Noun: 1st Declension,1st Declension,Emotions,12
+355,hūmānus -a -um,hūmānus,human,Adjective: 1st and 2nd Declension,1st and 2nd Declension,People,84
+356,mollis -e,mollis,"soft, yielding, gentle",Adjective: 3rd Declension,3rd Declension,Other Senses,73
+357,maneō manēre mānsī mānsum,maneō,remain,Verb: 2nd Conjugation,2nd Conjugation,Travel,325
+358,āgmen -minis n.,āgmen,line of march,Noun: 3rd Declension,3rd Declension,War and Peace,12
+359,sīdus -eris n.,sīdus,"star, constellation",Noun: 3rd Declension,3rd Declension,Air and Fire,12
+360,glōria -ae f.,glōria,"glory, fame",Noun: 1st Declension,1st Declension,Social Life,12
+361,diū:,diū:,for a long time,Adverb,,Time,0
+362,sīve,sīve,whether; sīve ... sīve: whether ... or → seu,Conjunction,,Conjunctions/Adverbs,0
+363,tamquam,tamquam,"so as, just as",Adverb,,Conjunctions/Adverbs,0
+364,fuga -ae f.,fuga,"flight, route",Noun: 1st Declension,1st Declension,Travel,12
+365,tūtus -a -um,tūtus,"safe, protected",Adjective: 1st and 2nd Declension,1st and 2nd Declension,War and Peace,84
+366,auris -is f.,auris,ear,Noun: 3rd Declension,3rd Declension,The Body,12
+367,aliēnus -a -um,aliēnus,"foreign, strange",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Geography,84
+368,hūc,hūc,to this place,Adverb,,Place,0
+369,taceō -ēre -uī -itum,taceō,"be silent; tacitus -a -um, silent",Verb: 2nd Conjugation,2nd Conjugation,Other Senses,227
+370,legiō -ōnis f.,legiō,legion,Noun: 3rd Declension,3rd Declension,War and Peace,12
+371,ostendō ostendere ostendī ostentum,ostendō,"show, hold out",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Other Senses,326
+372,socius -a -um,socius,"friendly, allied; socius -ī m.: partner, comrade",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Social Life,84
+373,prōsum prodesse profuī,prōsum,"be of use, do good, help (+ dat.)",Verb: Irregular,Irregular,Social Life,143
+374,āra -ae f.,āra,altar,Noun: 1st Declension,1st Declension,Religion,12
+375,lūmen luminis n.,lūmen,light,Noun: 3rd Declension,3rd Declension,Vision,12
+376,tegō tegere tēxī tēctum,tegō,"cover, conceal",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Deception,260
+377,turpis -e,turpis,"ugly, unsightly; disgraceful",Adjective: 3rd Declension,3rd Declension,Other Senses,73
+378,voluptās -ātis f.,voluptās,"pleasure, enjoyment",Noun: 3rd Declension,3rd Declension,Social Life,12
+379,adhūc,adhūc,"thus far, to this point",Adverb,,Place,0
+380,grātia -ae f.,grātia,"favor, influence, gratitude",Noun: 1st Declension,1st Declension,Social Life,12
+381,iniūria -ae f.:,iniūria,"injustice, wrong, affront",Noun: 1st Declension,1st Declension,Justice,12
+382,latus -eris n.,latus,"side, flank",Noun: 3rd Declension,3rd Declension,The Body,12
+383,dulcis -e,dulcis,sweet,Adjective: 3rd Declension,3rd Declension,Other Senses,73
+384,postquam,postquam,after,Conjunction,,Time,0
+385,extrēmus -a -um,extrēmus,"farthest, situated at the end or tip, extreme",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Geography,12
+386,tēctum -ī n.,tēctum,"roof; building, house",Noun: 2nd Declension,2nd Declension,The House,12
+387,ingenium -ī n.,ingenium,"disposition, ability, talent",Noun: 2nd Declension,2nd Declension,Education/Knowledge,12
+388,pāx pācis f.,pāx,peace,Noun: 3rd Declension,3rd Declension,War and Peace,12
+389,canō canere cecinī cantum,canō,sing,Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Writing/Poetry,360
+390,iuvō iuvāre iūvī iūtum,iuvō,"help, assist; please, delight",Verb: 1st Conjugation,1st Conjugation,Social Life,227
+391,campus -ī m.,campus,"plain, field",Noun: 2nd Declension,2nd Declension,Earth and Water,12
+392,claudō claudere clausī clausum,claudō,"close, shut",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,The House,260
+393,doceō -ēre -uī doctum,doceō,teach,Verb: 2nd Conjugation,2nd Conjugation,Education/Knowledge,227
+394,excipiō -cipere -cēpī -ceptum,excipiō,take out,Verb: 3rd Conjugation -iō,3rd Conjugation -iō,Verbs of Transport,260
+395,clārus -a -um,clārus,"clear, distinguished",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Personality Traits/Characteristics,84
+396,illīc,illīc,"at that place, there; illinc: from that place",Adverb,,Place,0
+397,procul,procul,at a distance,Adverb,,Place,0
+398,sacer sacra sacrum,sacer,"holy, sacred",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Religion,84
+399,mora -ae f.,mora,"delay, hindrance",Noun: 1st Declension,1st Declension,Time,12
+400,longē,longē,"far, far off",Adverb,,Measurement,0
+401,super,super,over (adv. and prep. +acc.),Adverb,,Place,0
+402,errō -āre,errō,"go astray, wander",Verb: 1st Conjugation,1st Conjugation,Travel,227
+403,sēdēs -is f.,sēdēs,"seat, abode, habitation",Noun: 3rd Declension,3rd Declension,The House,12
+404,cūr,cūr,why?,Adverb,,Pronouns/Interrogatives,0
+405,coma -ae f.,coma,"hair, tresses",Noun: 1st Declension,1st Declension,The Body,24
+406,aiō,aiō,"say, affirm, say yes; ut āiunt: as they say",Verb: Irregular,Irregular,Speech/Oratory,21
+407,gaudeō gaudēre gāvīsus sum,gaudeō,rejoice,Verb: 2nd Conjugation,2nd Conjugation,Emotions,195
+408,beātus -a -um,beātus,"happy, blessed, prosperous, fortunate",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Personality Traits/Characteristics,136
+409,perveniō -venīre -vēnī -ventum,perveniō,"arrive, reach",Verb: 4th Conjugation,4th Conjugation,Travel,277
+410,vērus -a -um,vērus,true,Adjective: 1st and 2nd Declension,1st and 2nd Declension,Speech/Oratory,84
+411,incipiō -cipere -cēpī -ceptum,incipiō,begin,Verb: 3rd Conjugation -iō,3rd Conjugation -iō,Time,260
+412,parcō parcere pepercī parsum,parcō,"spare, be sparing of (+ dat.)",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,War and Peace,324
+413,vestis -is f.,vestis,"garment, robe, clothing",Noun: 3rd Declension,3rd Declension,Life and Being,12
+414,similis -e,similis,"like, similar",Adjective: 3rd Declension,3rd Declension,Personality Traits/Characteristics,73
+415,caedēs -is f.,caedēs,"killing, slaughter",Noun: 3rd Declension,3rd Declension,Violence,12
+416,ōrdō -īnis m.,ōrdō,"order, rank",Noun: 3rd Declension,3rd Declension,War and Peace,12
+417,optō -āre,optō,"choose, select",Verb: 1st Conjugation,1st Conjugation,Personality Traits/Characteristics,227
+418,virgō -inis f.,virgō,"maiden, virgin, girl",Noun: 3rd Declension,3rd Declension,People,12
+419,legō legere lēgī lēctum,legō,"gather, choose, read",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Writing/Poetry,485
+420,aura -ae f.,aura,breeze,Noun: 1st Declension,1st Declension,Air and Fire,12
+421,impetus -ūs m.,impetus,attack,Noun: 4th Declension,4th Declension,Violence,12
+422,fōrma -ae f.,fōrma,shape; beauty,Noun: 1st Declension,1st Declension,Other Senses,12
+423,praestō -stāre -stitī -stitum,praestō,"excel, exhibit",Verb: 1st Conjugation,1st Conjugation,Other Senses,325
+424,aequor aequoris n.,aequor,"level surface, sea, plain",Noun: 3rd Declension,3rd Declension,Earth and Water,12
+425,misceō miscēre miscuī mixtum,misceō,mix,Verb: 2nd Conjugation,2nd Conjugation,Earth and Water,227
+426,spatium -ī n.,spatium,space,Noun: 2nd Declension,2nd Declension,Air and Fire,11
+427,tandem,tandem,finally,Adverb,,Conjunctions/Adverbs,0
+428,īnferus -a -um,īnferus,low; īnferior: lower; īnfimus or īmus: lowest,Adjective: 1st and 2nd Declension,1st and 2nd Declension,Geography,84
+429,metuō metuere metuī,metuō,"to fear, to dread",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Emotions,194
+430,temptō -āre,temptō,"try, test",Verb: 1st Conjugation,1st Conjugation,Making/Doing,227
+431,trānseō -īre -iī -itum,trānseō,go across,Verb: Irregular,Irregular,Travel,196
+432,ultimus -a -um,ultimus,"farthest, final, last, ultimate",Adjective: 1st and 2nd Declension,,Geography,0
+433,addō -dere -didī -ditum,addō,give to,Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Social Life,260
+434,grātus -a -um,grātus,pleasant; grateful,Adjective: 1st and 2nd Declension,1st and 2nd Declension,Personality Traits/Characteristics,84
+435,laudō -āre,laudō,praise,Verb: 1st Conjugation,1st Conjugation,Social Life,227
+436,nōndum,nōndum,not yet,Adverb,,Conjunctions/Adverbs,0
+437,impōnō -ere -posuī -positum,impōnō,"put in, put on, impose, levy upon",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Measurement,260
+438,somnus -ī m.,somnus,"sleep, slumber; (pl.) dreams",Noun: 2nd Declension,2nd Declension,Life and Being,12
+439,aciēs -ēī f.,aciēs,edge; line of battle,Noun: 5th Declension,5th Declension,War and Peace,12
+440,rūrsus,rūrsus,"back, again",Adverb,,Place,0
+441,cupiō -ere -īvī -ītum,cupiō,desire,Verb: 3rd Conjugation -iō,3rd Conjugation -iō,Love,260
+442,exspectō -āre,exspectō,"watch, wait, expect",Verb: 1st Conjugation,1st Conjugation,Vision,227
+443,compōnō -pōnere posuī positum,compōnō,"build, construct, arrange",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Making/Doing,260
+444,laus laudis f.,laus,"praise, glory",Noun: 3rd Declension,3rd Declension,Social Life,12
+445,absum abesse āfuī,absum,"be away, absent",Verb: Irregular,Irregular,Travel,248
+446,ūsus -ūs m.,ūsus,"use, experience",Noun: 4th Declension,4th Declension,Education/Knowledge,12
+447,velut,velut,"even as, just as",Adverb,,Conjunctions/Adverbs,0
+448,comes comitis m./f.,comes,"companion, comrade; attendant, follower",Noun: 3rd Declension,3rd Declension,Social Life,24
+449,ob,ob,"against, on account of (+acc)",Preposition,,Place,0
+450,studium -ī n.,studium,"eagerness, zeal",Noun: 2nd Declension,2nd Declension,Emotions,11
+451,facilis -e,facilis,easy,Adjective: 3rd Declension,3rd Declension,Personality Traits/Characteristics,73
+452,nūmen -inis n.,nūmen,"divine will, deity",Noun: 3rd Declension,3rd Declension,Religion,12
+453,sapiēns -ntis,sapiēns,"wise; (as subst.) wise man, sage, philosopher",Adjective: 3rd Declension,3rd Declension,Education/Knowledge,71
+454,sūmō sūmere sūmpsī sūmptum,sūmō,take up,Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Motion,358
+455,nōbilis -e,nōbilis,"distinguished, noble; (as subst.) a nobleman or woman",Adjective: 3rd Declension,3rd Declension,Personality Traits/Characteristics,73
+456,quīn,quīn,"(adv.) indeed, in fact; (conjunction) so that ... not (+ subj.)",Adverb,,Conjunctions/Adverbs,0
+457,fleō flēre flēvī flētum,fleō,weep,Verb: 2nd Conjugation,2nd Conjugation,Emotions,227
+458,nōlō nōlle nōluī,nōlō,be unwilling,Verb: Irregular,Irregular,Emotions,66
+459,plēnus -a -um,plēnus,full,Adjective: 1st and 2nd Declension,1st and 2nd Declension,Measurement,84
+460,adversus (-um),adversus,"(adv. and prep.) facing, opposite, against, opposed (to)",Adverb,,War and Peace,0
+461,nemus nemoris n.,nemus,"grove, forest",Noun: 3rd Declension,3rd Declension,Animals/Plants,12
+462,cārus -a -um,cārus,dear,Adjective: 1st and 2nd Declension,1st and 2nd Declension,Personality Traits/Characteristics,84
+463,dēsum -esse -fuī,dēsum,be lacking,Verb: Irregular,Irregular,Business/Money,178
+464,lēgātus -ī m.,lēgātus,"lieutenant, envoy",Noun: 2nd Declension,2nd Declension,War and Peace,12
+465,discō -ere didicī,discō,learn,Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Education/Knowledge,260
+466,furor -ōris m.,furor,"rage, fury",Noun: 3rd Declension,3rd Declension,Emotions,12
+467,amnis -is m.,amnis,"river, torrent",Noun: 3rd Declension,3rd Declension,Earth and Water,12
+468,arbor arboris f.,arbor,tree,Noun: 3rd Declension,3rd Declension,Animals/Plants,12
+469,mox,mox,soon,Adverb,,Time,0
+470,eō,eō,"(adv.) there, to that place",Adverb,,Place,0
+471,cīvis -is m./f.,cīvis,citizen,Noun: 3rd Declension,3rd Declension,The City,12
+472,occupō -āre,occupō,"seize, occupy; anticipate, do a thing first (+ infin.)",Verb: 1st Conjugation,1st Conjugation,War and Peace,227
+473,spectō -āre,spectō,"look at, consider",Verb: 1st Conjugation,1st Conjugation,Vision,227
+474,tergum -ī n.,tergum,"back, rear; ā tergō: from the rear",Noun: 2nd Declension,2nd Declension,The Body,12
+475,crīmen -inis n.,crīmen,"verdict, accusation",Noun: 3rd Declension,3rd Declension,Justice,12
+476,dōnum -ī n.,dōnum,"gift, present",Noun: 2nd Declension,2nd Declension,Social Life,12
+477,nōtus -a -um,nōtus,well-known,Adjective: 1st and 2nd Declension,1st and 2nd Declension,Personality Traits/Characteristics,84
+478,sinus -ūs m.,sinus,"fold of a garment; lap, bay, gulf",Noun: 4th Declension,4th Declension,Earth and Water,22
+479,faciēs -ēī f.,faciēs,"form, appearance",Noun: 5th Declension,5th Declension,Vision,12
+480,rumpō rumpere rūpī ruptum,rumpō,"break, rupture",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Violence,260
+481,membrum -ī n.,membrum,"limb, member of the body",Noun: 2nd Declension,2nd Declension,The Body,12
+482,umquam,umquam,ever,Adverb,,Time,0
+483,aspiciō -ere -spēxī -spectum,aspiciō,"look to or at, behold",Verb: 3rd Conjugation -iō,3rd Conjugation -iō,Vision,260
+484,prius or priusquam,prius,before,Adverb,,Time,0
+485,templum -ī n.,templum,consecrated ground; temple,Noun: 2nd Declension,2nd Declension,Religion,14
+486,āmittō -mittere -mīsī -missum,āmittō,"let go, send away",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Verbs of Compelling/Directing,260
+487,pōscō pōscere popōscī,pōscō,"demand, claim; inquire into",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Speech/Oratory,194
+488,perdō -dere -didī -ditum,perdō,destroy,Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Violence,260
+489,quamvīs,quamvīs,however you like; although,Adverb,,Conjunctions/Adverbs,0
+490,tener -era -erum,tener,tender,Adjective: 1st and 2nd Declension,1st and 2nd Declension,Other Senses,84
+491,currus -ūs m.,currus,chariot,Noun: 4th Declension,4th Declension,Athletics,12
+492,precor -ārī,precor,"pray, invoke",Verb: Deponent,Deponent,Religion,195
+493,anima -ae f.,anima,"breath, spirit",Noun: 1st Declension,1st Declension,Life and Being,12
+494,contingō -tingere -tigī -tactum,contingō,"touch, be contiguous to",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Place,260
+495,lībertās -ātis f.,lībertās,freedom,Noun: 3rd Declension,3rd Declension,The City,12
+496,servus -ī m.,servus,slave,Noun: 2nd Declension,2nd Declension,The Household,12
+497,soror -ōris f.,soror,sister,Noun: 3rd Declension,3rd Declension,The Household,12
+498,fluctus -ūs m,fluctus,"flood, billow, surf",Noun: 4th Declension,4th Declension,Earth and Water,12
+499,quīppe,quīppe,"(adv.) indeed, surely",Adverb,,Conjunctions/Adverbs,0
+500,exigō -igere -ēgī -āctum,exigō,drive out; collect,Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Verbs of Compelling/Directing,260
+501,fēmina -ae f.,fēmina,woman,Noun: 1st Declension,1st Declension,People,12
+502,nimius -a -um,nimius,"too much, excessive",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Personality Traits/Characteristics,84
+503,fallō fallere fefellī falsum,fallō,deceive,Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Deception,260
+504,mīror mīrārī mīrātus sum,mīror,"wonder at, marvel at (+ acc.)",Verb: Deponent,Deponent,Emotions,195
+505,classis -is f.,classis,"class, division, fleet",Noun: 3rd Declension,3rd Declension,War and Peace,12
+506,sedeō sedēre sēdī sessum,sedeō,sit,Verb: 2nd Conjugation,2nd Conjugation,The House,227
+507,singulī -ae -a,singulī,one each,Adjective: 1st and 2nd Declension,,Measurement,0
+508,mūrus -ī m.,mūrus,wall,Noun: 2nd Declension,2nd Declension,The House,12
+509,noceō nocēre nocuī,noceō,harm,Verb: 2nd Conjugation,2nd Conjugation,Violence,227
+510,quoniam,quoniam,"since, seeing that",Conjunction,,Conjunctions/Adverbs,0
+511,fax facis f.,fax,torch,Noun: 3rd Declension,3rd Declension,Air and Fire,12
+512,intellegō -legere -lēxī -lēctum:,intellegō,understand,Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Education/Knowledge,279
+513,iungō iungere iūnxī iūnctum,iungō,join,Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Making/Doing,260
+514,afferō afferre attulī allātum,afferō,bring to,Verb: Irregular,Irregular,Verbs of Transport,259
+515,cōgitō -āre,cōgitō,"think, reflect",Verb: 1st Conjugation,1st Conjugation,Education/Knowledge,227
+516,līmen līminis n.,līmen,threshold,Noun: 3rd Declension,3rd Declension,The House,12
+517,pūblicus -a -um,pūblicus,"public, belonging to the state",Adjective: 1st and 2nd Declension,1st and 2nd Declension,The City,84
+518,queror querī questus sum,queror,"complain of, lament",Verb: Deponent,Deponent,Emotions,228
+519,exemplum -ī n.,exemplum,"example, sample, copy",Noun: 2nd Declension,2nd Declension,Speech/Oratory,12
+520,prex precis f.,prex,"prayers, entreaties",Noun: 3rd Declension,3rd Declension,Religion,12
+521,dubitō -āre,dubitō,"hesitate, doubt",Verb: 1st Conjugation,1st Conjugation,Education/Knowledge,227
+522,odium -ī n.,odium,hatred,Noun: 2nd Declension,2nd Declension,Emotions,11
+523,fundō fundere fūdī fūsum,fundō,"pour, scatter",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Earth and Water,485
+524,fūnus fūneris n.,fūnus,funeral; death; dead body,Noun: 3rd Declension,3rd Declension,Religion,12
+525,nesciō -scīre,nesciō,"not know, be ignorant",Verb: 4th Conjugation,4th Conjugation,Education/Knowledge,277
+526,prior prius,prior,"earlier, preceding",Adjective: 3rd Declension,3rd Declension,Time,12
+527,ūsque,ūsque,up to; continuously,Adverb,,Time,0
+528,dubius -a -um,dubius,"doubtful; (as subst.) a doubt; sine dubiō, without a doubt, certainly",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Deception,84
+529,tendō tendere tetendī tentum,tendō,"stretch, extend, direct (one’s steps or course)",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Travel,326
+530,pecūnia -ae f.,pecūnia,money,Noun: 1st Declension,1st Declension,Business/Money,12
+531,quemadmodum,quemadmodum,"in what manner, how",Adverb,,Pronouns/Interrogatives,0
+532,spargō spargere sparsī sparsum,spargō,scatter,Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Earth and Water,260
+533,trēs tria,trēs,three,Adjective: Numeral,Numeral,Measurement,62
+534,tangō tangere tetigī tāctum,tangō,touch,Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Other Senses,260
+535,respondeō -spondēre -spondī -spōnsum,respondeō,answer,Verb: 2nd Conjugation,2nd Conjugation,Speech/Oratory,227
+536,timor -ōris m.,timor,fear,Noun: 3rd Declension,3rd Declension,Emotions,12
+537,properō -āre,properō,"hasten, speed",Verb: 1st Conjugation,1st Conjugation,Motion,227
+538,subeō -īre -iī -itum,subeō,go under; endure,Verb: Irregular,Irregular,Motion,196
+539,valeō valēre valuī,valeō,"be strong, excel, be valid, prevail; valē: farewell!",Verb: 2nd Conjugation,2nd Conjugation,Social Life,227
+540,condō -dere -didī -ditum,condō,"build, found; store up; hide, conceal",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,The City,260
+541,nefās n. indecl.,nefās,"impiety, wickedness",Noun: Indeclinable,,Justice,0
+542,quondam,quondam,"formerly, once",Adverb,,Time,0
+543,auxilium -ī n.,auxilium,"support, assistance; (pl.) auxiliary forces",Noun: 2nd Declension,2nd Declension,War and Peace,11
+544,dēserō -ere dēseruī dēsertum,dēserō,"leave, desert, abandon",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Motion,358
+545,nūdus -a -um,nūdus,"naked, bare",Adjective: 1st and 2nd Declension,1st and 2nd Declension,The Body,84
+546,auctor -ōris m.,auctor,"originator, founder",Noun: 3rd Declension,3rd Declension,Writing/Poetry,12
+547,animal -ālis n.,animal,"a living being, an animal",Noun: 3rd Declension,3rd Declension,Animals/Plants,12
+548,decus decoris n.,decus,"beauty, grace; ornament, glory, honor",Noun: 3rd Declension,3rd Declension,Personality Traits/Characteristics,12
+549,salūs -ūtis f.,salūs,"health, safety",Noun: 3rd Declension,3rd Declension,Life and Being,12
+550,pateō patēre patuī,pateō,"lie open, extend; be evident or obvious",Verb: 2nd Conjugation,2nd Conjugation,Geography,161
+551,rogō -āre,rogō,ask,Verb: 1st Conjugation,1st Conjugation,Speech/Oratory,227
+552,uxor uxōris f.,uxor,wife,Noun: 3rd Declension,3rd Declension,The Household,12
+553,abeō -īre -iī -itum,abeō,go away,Verb: Irregular,Irregular,Motion,196
+554,regō regere rēxī rēctum,regō,"guide, rule",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,The City,260
+555,adeō,adeō,"(adv.) to such a degree, so",Adverb,,Conjunctions/Adverbs,0
+556,auferō auferre abstulī ablātum,auferō,take away,Verb: Irregular,Irregular,Verbs of Transport,291
+557,quantum,quantum,(adv.) how much? how greatly? how much! how greatly! as much as,Adverb,,Pronouns/Interrogatives,0
+558,senex -is m.,senex,"old man, elder; senior, older",Noun: 3rd Declension,3rd Declension,People,12
+559,frōns frontis f.,frōns,"forehead, brow; front",Noun: 3rd Declension,3rd Declension,The Body,24
+560,propter,propter,because of (+ acc.),Preposition,,Non-Directional Prepositions,0
+561,rēgius -a -um,rēgius,"kingly, royal",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Personality Traits/Characteristics,84
+562,currō currere cucurrī cursum,currō,run,Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Athletics,260
+563,pellō pellere pepulī pulsum,pellō,"strike, beat, push, drive",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Violence,260
+564,dīves dīvitis,dīves,"rich (poet. dīs, dītis)",Adjective: 3rd Declension,3rd Declension,Business/Money,71
+565,iūdicō -āre,iūdicō,"judge, decide",Verb: 1st Conjugation,1st Conjugation,Justice,227
+566,pecus -oris n.,pecus,"cattle, sheep",Noun: 3rd Declension,3rd Declension,Animals/Plants,24
+567,potēns potentis,potēns,"able, powerful",Adjective: 3rd Declension,3rd Declension,Personality Traits/Characteristics,71
+568,scrībō scrībere scrīpsī scrīptum,scrībō,write,Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Writing/Poetry,260
+569,pulcher -chra -chrum,pulcher,beautiful,Adjective: 1st and 2nd Declension,1st and 2nd Declension,Vision,84
+570,surgō surgere surrēxī surrēctum,surgō,rise,Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Earth and Water,260
+571,cēterum,cēterum,"for the rest, in addition, however that may be",Adverb,,Pronouns/Interrogatives,0
+572,careō -ēre -uī,careō,lack (+ abl.),Verb: 2nd Conjugation,2nd Conjugation,Business/Money,227
+573,efficiō -ficere -fēcī -fectum,efficiō,"bring about, complete; render (+ ut + subj.)",Verb: 3rd Conjugation -iō,3rd Conjugation -iō,Making/Doing,260
+574,ōlim,ōlim,"formerly, at that time",Adverb,,Time,0
+575,sermō -ōnis m.,sermō,"conversation, discourse",Noun: 3rd Declension,3rd Declension,Speech/Oratory,12
+576,exerceō -ercēre -ercuī -ercitum,exerceō,"train, exercise, carry on",Verb: 2nd Conjugation,2nd Conjugation,Athletics,227
+577,gradus -ūs m.,gradus,"step, pace; grade, rank",Noun: 4th Declension,4th Declension,War and Peace,12
+578,agitō -āre,agitō,drive,Verb: 1st Conjugation,1st Conjugation,Verbs of Compelling/Directing,227
+579,forte,forte,by chance,Adverb,,Religion,0
+580,honestus -a -um,honestus,honorable,Adjective: 1st and 2nd Declension,1st and 2nd Declension,Personality Traits/Characteristics,84
+581,moror morārī morātus sum,moror,delay,Verb: Deponent,Deponent,Time,195
+582,praesidium -ī n.,praesidium,"garrison, protection",Noun: 2nd Declension,2nd Declension,War and Peace,11
+583,sonō sonāre sonuī sonitum,sonō,"sound, resound",Verb: 1st Conjugation,1st Conjugation,Other Senses,485
+584,praebeō -ēre -uī -itum,praebeō,"furnish, supply, render",Verb: 2nd Conjugation,2nd Conjugation,Verbs of Transport,227
+585,regiō -ōnis f.,regiō,"boundary, region",Noun: 3rd Declension,3rd Declension,Geography,14
+586,sententia -ae f.,sententia,"opinion, judgment",Noun: 1st Declension,1st Declension,Education/Knowledge,12
+587,ācer ācris ācre,ācer,"sharp, piercing",Adjective: 3rd Declension,3rd Declension,Other Senses,75
+588,suprā,suprā,"above, beyond (adv. and prep. +acc.)",Preposition,,Place,0
+589,brevis -e,brevis,"short, shallow, brief",Adjective: 3rd Declension,3rd Declension,Measurement,73
+590,citus -a -um,citus,swift; citō swiftly,Adjective: 1st and 2nd Declension,1st and 2nd Declension,Time,84
+591,cornu -ūs n.,cornu,horn,Noun: 4th Declension,4th Declension,Animals/Plants,12
+592,ingrātus -a -um:,ingrātus,"unpleasant, disagreeable",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Personality Traits/Characteristics,84
+593,moenia -ium n. pl.,moenia,"walls, fortifications",Noun: 3rd Declension,,The City,0
+594,vinculum -ī n.,vinculum,"bond, fetter, tie",Noun: 2nd Declension,2nd Declension,War and Peace,12
+595,adeō -īre -iī -itum,adeō,go to,Verb: Irregular,Irregular,Motion,196
+596,cēterus -a -um,cēterus,"the other, the others, the rest",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Pronouns/Interrogatives,84
+597,exeō -īre -iī -itum,exeō,go forth,Verb: Irregular,Irregular,Motion,196
+598,mālō mālle māluī,mālō,prefer,Verb: Irregular,Irregular,Emotions,69
+599,speciēs -ēī f.,speciēs,"aspect, appearance",Noun: 5th Declension,5th Declension,Vision,12
+600,ultrā,ultrā,"beyond, further (adv. and prep. + acc.)",Preposition,,Place,0
+601,certē,certē,"certainly, surely",Adverb,,Measurement,0
+602,imperō -āre,imperō,"command, control",Verb: 1st Conjugation,1st Conjugation,War and Peace,227
+603,male,male,(adv.) badly,Adverb,,Personality Traits/Characteristics,0
+604,prohibeō -ēre -uī -itum,prohibeō,"restrain, keep away",Verb: 2nd Conjugation,2nd Conjugation,Verbs of Compelling/Directing,227
+605,clāmor -ōris m.,clāmor,"outcry, shout",Noun: 3rd Declension,3rd Declension,Speech/Oratory,12
+606,dōnō -āre,dōnō,present with a gift (+ acc. of person and abl. of thing),Verb: 1st Conjugation,1st Conjugation,Social Life,227
+607,officium -ī n.,officium,"service, duty",Noun: 2nd Declension,2nd Declension,The City,11
+608,committō -mittere -mīsī -missum,committō,"join, entrust to (+ dat.); perform, do",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Social Life,260
+609,crēscō crēscere crēvī crētum,crēscō,"grow, increase",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Animals/Plants,260
+610,aequus -a -um,aequus,equal,Adjective: 1st and 2nd Declension,1st and 2nd Declension,Justice,84
+611,factum -ī n.,factum,"deed, accomplishment",Noun: 2nd Declension,2nd Declension,Making/Doing,12
+612,caedō caedere cecīdī caesum,caedō,"strike, kill, cut down",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Violence,294
+613,exīstimō -āre,exīstimō,"think, believe",Verb: 1st Conjugation,1st Conjugation,Education/Knowledge,227
+614,accēdō -cēdere -cessī -cessum,accēdō,approach,Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Motion,260
+615,contemnō -temnere -tempsī -temptum,contemnō,"despise, scorn, disdain",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Emotions,358
+616,pudor pudōris m.,pudor,"sense of shame, modesty, propriety",Noun: 3rd Declension,3rd Declension,Personality Traits/Characteristics,12
+617,antīquus -a -um,antīquus,"ancient, old-time, former",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Lengths of Time,84
+618,ārdeō ārdēre ārsī ārsum,ārdeō,"blaze, glow; be eager",Verb: 2nd Conjugation,2nd Conjugation,Air and Fire,227
+619,ibi,ibi,there,Adverb,,Place,0
+620,prōvincia -ae f.,prōvincia,province; official duty,Noun: 1st Declension,1st Declension,The City,12
+621,quandō,quandō,when?; since; sī quandō: if ever,Adverb,,Pronouns/Interrogatives,0
+622,custōs custōdis m.,custōs,guardian,Noun: 3rd Declension,3rd Declension,The Household,12
+623,supersum -esse -fuī,supersum,"remain, survive; be superfluous (to)",Verb: Irregular,Irregular,Place,143
+624,dēsinō -sinere -siī -situm,dēsinō,"leave off, cease",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Motion,485
+625,fessus -a -um,fessus,"weary, tired",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Life and Being,84
+626,praeda -ae f.,praeda,"booty, prey",Noun: 1st Declension,1st Declension,War and Peace,12
+627,memoria -ae f.,memoria,"recollection, memory",Noun: 1st Declension,1st Declension,Education/Knowledge,12
+628,dīvidō -ere dīvīsī dīvīsum,dīvidō,"divide, separate",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Making/Doing,260
+629,pretium -ī n.,pretium,"price, worth, reward; pretium operae: a reward for trouble",Noun: 2nd Declension,2nd Declension,Business/Money,11
+630,pontus -ī m.,pontus,"the open sea, the deep",Noun: 2nd Declension,2nd Declension,Earth and Water,14
+631,varius -a -um,varius,"changing, varied, various",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Other Senses,84
+632,vehō vehere vēxī vectum,vehō,"carry; vehor vehī vectus sum: travel, ride",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Travel,260
+633,falsus -a -um,falsus,"deceptive, false",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Deception,84
+634,niger nigra nigrum,niger,black,Adjective: 1st and 2nd Declension,1st and 2nd Declension,Vision,84
+635,oppidum -ī n.,oppidum,town,Noun: 2nd Declension,2nd Declension,The City,14
+636,pondus ponderis n.,pondus,weight,Noun: 3rd Declension,3rd Declension,Measurement,12
+637,arvum -ī n.,arvum,"ploughed land, field",Noun: 2nd Declension,2nd Declension,Animals/Plants,14
+638,arx arcis f.,arx,"citadel, castle; summit",Noun: 3rd Declension,3rd Declension,The City,12
+639,sors sortis f.,sors,"lot, fate, destiny; oracle",Noun: 3rd Declension,3rd Declension,Religion,12
+640,vīnum -ī n.,vīnum,"vine, wine",Noun: 2nd Declension,2nd Declension,Animals/Plants,12
+641,dīversus -a -um,dīversus,"different, diverse",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Other Senses,84
+642,orior orīrī ortus sum,orior,"arise, begin",Verb: Deponent,Deponent,Time,334
+643,ecce,ecce,behold!,Adverb,,Vision,0
+644,quamquam,quamquam,"however, although",Conjunction,,Conjunctions/Adverbs,0
+645,cōnferō cōnferre contulī collātum,cōnferō,"collect, bring to",Verb: Irregular,Irregular,Verbs of Transport,325
+646,facinus facinoris n.,facinus,"deed, crime",Noun: 3rd Declension,3rd Declension,Justice,12
+647,retineō -tinēre -tinuī -tentum,retineō,"hold back, keep",Verb: 2nd Conjugation,2nd Conjugation,Verbs of Compelling/Directing,227
+648,spērō -āre,spērō,to hope,Verb: 1st Conjugation,1st Conjugation,Emotions,227
+649,plēbs plēbis f.,plēbs,the common people,Noun: 3rd Declension,3rd Declension,The City,12
+650,pūgna -ae f.,pūgna,fist-fight; battle,Noun: 1st Declension,1st Declension,Violence,12
+651,repetō -petere -petīvī -petītum,repetō,"demand, exact; revisit; call to mind, recollect; repeat",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Verbs of Compelling/Directing,260
+652,cōnstituō -stituere -stituī -stitūtum,cōnstituō,"establish, put together",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Making/Doing,260
+653,dēfendō -fendere -fendī -fēnsum,dēfendō,"defend, ward off",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,War and Peace,260
+654,marītus -ī m.,marītus,husband,Noun: 2nd Declension,2nd Declension,The Household,12
+655,cernō cernere crēvī crētum,cernō,"discern, separate",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Education/Knowledge,262
+656,superbus -a -um,superbus,"overbearing, proud, haughty",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Personality Traits/Characteristics,84
+657,adversus -a -um,adversus,"facing, opposed; unfavorable",Adjective: 1st and 2nd Declension,1st and 2nd Declension,War and Peace,84
+658,morbus -ī m.,morbus,"sickness, disease",Noun: 2nd Declension,2nd Declension,The Body,12
+659,sānctus -a -um,sānctus,"sacred, inviolable",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Religion,84
+660,commūnis -e,commūnis,"common, general",Adjective: 3rd Declension,3rd Declension,The City,73
+661,dēdūcō -dūcere -dūxī -ductum,dēdūcō,"launch, lead away",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Travel,260
+662,rīpa -ae f.,rīpa,bank of a river,Noun: 1st Declension,1st Declension,Earth and Water,12
+663,concēdō -cēdere -cessī -cessum,concēdō,"yield, withdraw",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,War and Peace,260
+664,hōra -ae f.,hōra,hour,Noun: 1st Declension,1st Declension,Lengths of Time,12
+665,vetō -āre vetuī vetītum,vetō,forbid,Verb: 1st Conjugation,1st Conjugation,Verbs of Compelling/Directing,325
+666,cohors cohortis f.,cohors,"cohort, band, troop",Noun: 3rd Declension,3rd Declension,War and Peace,12
+667,gīgnō gīgnere genuī genitum,gīgnō,"beget, bear, bring forth",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Life and Being,260
+668,superō -āre,superō,"overcome, surpass, defeat",Verb: 1st Conjugation,1st Conjugation,War and Peace,227
+669,maestus -a -um,maestus,"sad, sorrowful; depressing",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Emotions,84
+670,meminī meminisse,meminī,"remember, recollect",Verb: Irregular,Irregular,Education/Knowledge,34
+671,impleō -ēre -plēvī -plētum,impleō,"fill in, fill up",Verb: 2nd Conjugation,2nd Conjugation,Earth and Water,227
+672,māgnitūdō -inis f.,māgnitūdō,"greatness, size",Noun: 3rd Declension,3rd Declension,Measurement,12
+673,vacuus -a -um,vacuus,empty,Adjective: 1st and 2nd Declension,1st and 2nd Declension,Measurement,84
+674,vagus -a -um,vagus,"wandering, shifting",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Travel,84
+675,vulgus -ī n. and m.,vulgus,the common people,Noun: 2nd Declension,2nd Declension,The City,14
+676,deficiō -ficere -fēcī -fectum,deficiō,"fail, give out; revolt from",Verb: 3rd Conjugation -iō,3rd Conjugation -iō,War and Peace,260
+677,occurrō -currere -cucurrī -cursum,occurrō,run to meet; come into one’s mind,Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Education/Knowledge,292
+678,statuō -ere -uī -ūtum,statuō,"set up, determine",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Justice,260
+679,ideō,ideō,for this reason,Adverb,,Conjunctions/Adverbs,0
+680,praemium -ī n.,praemium,"bounty, reward",Noun: 2nd Declension,2nd Declension,Business/Money,11
+681,praetereā,praetereā,"besides, moreover",Adverb,,Conjunctions/Adverbs,0
+682,tertius -a -um,tertius,third,Adjective: 1st and 2nd Declension,,Measurement,0
+683,supplicium -ī n.,supplicium,"punishment, penalty",Noun: 2nd Declension,2nd Declension,Justice,11
+684,vātēs -is m.,vātēs,"poet, bard",Noun: 3rd Declension,3rd Declension,Writing/Poetry,12
+685,astrum -ī n.,astrum,star; constellation,Noun: 2nd Declension,2nd Declension,Air and Fire,12
+686,undique,undique,"from all sides, on all sides",Adverb,,Place,0
+687,canis -is m./f.,canis,dog,Noun: 3rd Declension,3rd Declension,Animals/Plants,12
+688,ēdō ēdere ēdidī ēditum,ēdō,"put forth, state, explain",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Speech/Oratory,574
+689,fateor fatērī fassus sum,fateor,"admit, confess; profess, declare; assent, say yes",Verb: Deponent,Deponent,Justice,195
+690,amīcitia -ae f.,amīcitia,friendship,Noun: 1st Declension,1st Declension,Social Life,12
+691,aureus -a -um,aureus,golden; splendid,Adjective: 1st and 2nd Declension,1st and 2nd Declension,Business/Money,84
+692,candidus -a -um,candidus,"white, fair",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Vision,84
+693,interim,interim,meanwhile,Adverb,,Time,0
+694,frūstrā,frūstrā,in vain,Adverb,,Conjunctions/Adverbs,0
+695,lateō latēre latuī,lateō,"lie hidden, be hidden",Verb: 2nd Conjugation,2nd Conjugation,Deception,161
+696,os ossis n.,os,bone,Noun: 3rd Declension,3rd Declension,The Body,30
+697,sēcūrus -a -um,sēcūrus,"free from care, tranquil; careless",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Personality Traits/Characteristics,84
+698,conveniō -venīre -vēnī -ventum,conveniō,"assemble, meet; agree",Verb: 4th Conjugation,4th Conjugation,Social Life,277
+699,interficiō -ficere -fēcī -fectum,interficiō,kill,Verb: 3rd Conjugation -iō,3rd Conjugation -iō,Violence,260
+700,appellō -pellāre,appellō,"call, address, name",Verb: 1st Conjugation,1st Conjugation,Social Life,583
+701,dolus -ī m.,dolus,"artifice, device, trick",Noun: 2nd Declension,2nd Declension,Deception,12
+702,permittō -mittere -mīsī -missum,permittō,"yield, allow, permit",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Verbs of Compelling/Directing,260
+703,spīritus -ūs m.,spīritus,"breath, life, spirit",Noun: 4th Declension,4th Declension,Life and Being,12
+704,intrā,intrā,within (+ acc.),Preposition,,Place,0
+705,terreō terrēre terruī territum,terreō,"terrify, frighten",Verb: 2nd Conjugation,2nd Conjugation,Emotions,227
+706,fōns fontis m.,fōns,"spring, fountain",Noun: 3rd Declension,3rd Declension,Earth and Water,12
+707,invidia -ae f.,invidia,"envy, jealousy, hatred",Noun: 1st Declension,1st Declension,Emotions,12
+708,pugnō -āre,pugnō,fight,Verb: 1st Conjugation,1st Conjugation,Violence,227
+709,augeō augēre auxī auctum,augeō,increase,Verb: 2nd Conjugation,2nd Conjugation,Making/Doing,227
+710,littera -ae f.,littera,"letter, (pl.) literature",Noun: 1st Declension,1st Declension,Writing/Poetry,12
+711,moneō monēre monuī monitum,moneō,"warn, advise",Verb: 2nd Conjugation,2nd Conjugation,Speech/Oratory,227
+712,dīvitiae -ārum f. pl.,dīvitiae,"riches, wealth",Noun: 1st Declension,,Business/Money,0
+713,experior -perīrī -pertus sum,experior,"try thoroughly, test, experience",Verb: Deponent,Deponent,Education/Knowledge,245
+714,superī -ōrum m. pl.,superī,"those above, i.e. the gods",Noun: 2nd Declension,,Religion,0
+715,ōtium -ī n.,ōtium,leisure,Noun: 2nd Declension,2nd Declension,Social Life,11
+716,vestīgium -ī n.,vestīgium,"footstep, footprint, track",Noun: 2nd Declension,2nd Declension,Travel,11
+717,sinō sinere sīvī situm,sinō,"allow, let go",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Verbs of Compelling/Directing,260
+718,decet decēre decuīt,decet,"it is right, proper, fitting (+ acc. + infin.)",Verb: Impersonal,,Personality Traits/Characteristics,0
+719,effundō -fundere -fūdī -fūsum,effundō,pour out,Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Earth and Water,260
+720,prōmittō -mittere -mīsī -missum,prōmittō,"send forth, offer",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Verbs of Compelling/Directing,260
+721,fingō fingere fīnxī fīctum,fingō,shape; invent,Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Making/Doing,358
+722,respicio -ere -spēxī -spectum,respicio,"look back, regard, consider",Verb: 3rd Conjugation -iō,3rd Conjugation -iō,Vision,260
+723,imperātor -ōris m.,imperātor,commander,Noun: 3rd Declension,3rd Declension,War and Peace,12
+724,vacō vacāre,vacō,"be empty, open, unoccupied",Verb: 1st Conjugation,1st Conjugation,Measurement,227
+725,color -ōris m.,color,color,Noun: 3rd Declension,3rd Declension,Vision,12
+726,discēdō -ere -cessī -cessum,discēdō,"go away, depart",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Travel,260
+727,gaudium -ī n.,gaudium,"delight, joy, pleasure",Noun: 2nd Declension,2nd Declension,Emotions,11
+728,caecus -a -um,caecus,"blind, unseeing; dark, obscure",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Vision,84
+729,libet libēre libuit or libitum est,libet,it is pleasing (+ dat. + infin.),Verb: Impersonal,,Social Life,0
+730,centum,centum,one hundred,Adjective: Numeral,Numeral,Measurement,53
+731,cōnstō -stāre -stitī,cōnstō,"agree; constat, it is established that (+ acc. and infin.)",Verb: 1st Conjugation,1st Conjugation,Speech/Oratory,227
+732,lingua -ae f.,lingua,tongue; language,Noun: 1st Declension,1st Declension,The Body,12
+733,multitūdō -inis f.,multitūdō,"multitude, number",Noun: 3rd Declension,3rd Declension,Measurement,12
+734,aeternus -a -um,aeternus,"everlasting, eternal",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Lengths of Time,84
+735,circā,circā,around (adv. and prep. +acc.),Preposition,,Place,0
+736,ōrātiō -ōnis f.,ōrātiō,"speech, address",Noun: 3rd Declension,3rd Declension,Speech/Oratory,12
+737,potestās -ātis f.,potestās,power,Noun: 3rd Declension,3rd Declension,The City,12
+738,tardus -a -um,tardus,"slow, sluggish, lingering",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Time,84
+739,for fārī fātus sum,for,"report, say",Verb: Deponent,Deponent,Speech/Oratory,195
+740,humus -ī f.,humus,ground; humī: on the ground,Noun: 2nd Declension,2nd Declension,Earth and Water,14
+741,testis -is m.,testis,witness,Noun: 3rd Declension,3rd Declension,Justice,24
+742,īnferō īnferre intulī illātum,īnferō,"bring upon, against; bellum īnferre: make war on",Verb: Irregular,Irregular,War and Peace,325
+743,cūrō -āre,cūrō,"watch over, look after, care for (+ acc.)",Verb: 1st Conjugation,1st Conjugation,Love,227
+744,aes aeris n.,aes,"copper, bronze",Noun: 3rd Declension,3rd Declension,Business/Money,12
+745,celer -is -e,celer,swift,Adjective: 3rd Declension,3rd Declension,Time,75
+746,prōcēdō -cēdere -cessī -cessum,prōcēdō,"go forth, advance",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Motion,260
+747,mēnsa -ae f.,mēnsa,table,Noun: 1st Declension,1st Declension,The House,12
+748,pius -a -um,pius,"dutiful, devoted, just, pious",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Personality Traits/Characteristics,64
+749,iūdicium -ī n.,iūdicium,"judgment, decision, trial",Noun: 2nd Declension,2nd Declension,Justice,11
+750,victōria -ae f.,victōria,victory,Noun: 1st Declension,1st Declension,War and Peace,12
+751,damnō -āre,damnō,condemn,Verb: 1st Conjugation,1st Conjugation,Justice,227
+752,rārus -a -um,rārus,"wide apart, loose, thin; rare, seldom",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Measurement,84
+753,tempestas -tātis f.,tempestas,"period of time, season; bad weather, storm",Noun: 3rd Declension,3rd Declension,Lengths of Time,12
+754,imāgō -inis f.,imāgō,"image, form, figure",Noun: 3rd Declension,3rd Declension,Vision,12
+755,ōrō -āre,ōrō,pray,Verb: 1st Conjugation,1st Conjugation,Religion,387
+756,praeter,praeter,"by, along, past; besides, except (+ acc.)",Preposition,,Place,0
+757,cōnsulō -sulere -suluī -sultum,cōnsulō,"consult, plan (+ acc.); consider the interests of (+dat)",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,The City,260
+758,iterum,iterum,again,Adverb,,Time,0
+759,porta -ae f.,porta,gate,Noun: 1st Declension,1st Declension,The City,12
+760,intersum -esse -fuī,intersum,"to be between; take part in, attend (+dat.); interest, it is in the interest of (+ gen.)",Verb: Irregular,Irregular,Place,143
+761,libīdō -inis f.,libīdō,"passion, lust",Noun: 3rd Declension,3rd Declension,Love,12
+762,sustineō sustinēre sustinuī sustentum,sustineō,"hold up, sustain",Verb: 2nd Conjugation,2nd Conjugation,Social Life,227
+763,aliquandō,aliquandō,"at some time, at length",Adverb,,Time,0
+764,māiōrēs māiōrum m.,māiōrēs,ancestors,Noun: 3rd Declension,,The Household,0
+765,reperiō -perīre -pperī -pertum,reperiō,"find, find out",Verb: 4th Conjugation,4th Conjugation,Education/Knowledge,277
+766,intrō -āre,intrō,enter,Verb: 1st Conjugation,1st Conjugation,Motion,227
+767,pietās -tātis f.,pietās,"sense of duty, devotion, esp. between parents and children",Noun: 3rd Declension,3rd Declension,The Household,12
+768,barbarus -ī m.,barbarus,"foreigner, barbarian",Noun: 2nd Declension,2nd Declension,War and Peace,12
+769,culpa -ae f.,culpa,"guilt, fault, blame",Noun: 1st Declension,1st Declension,Justice,12
+770,iūstus -a -um,iūstus,"right, just, fair",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Justice,84
+771,dōnec,dōnec,until,Conjunction,,Time,0
+772,fluō fluere fluxī fluxum,fluō,flow,Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Earth and Water,260
+773,necesse (indecl. adj.),necesse,necessary,Adjective: Indeclinable,,Business/Money,0
+774,reor rērī rātus sum,reor,"think, imagine, suppose, deem",Verb: Deponent,Deponent,Education/Knowledge,195
+775,tenebrae -brārum f. pl.,tenebrae,"darkness, the shadows",Noun: 1st Declension,,Vision,0
+776,saeculum -ī n.,saeculum,"generation, age, century",Noun: 2nd Declension,2nd Declension,Lengths of Time,12
+777,dīmittō -mittere -mīsī -missum,dīmittō,send away,Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Verbs of Compelling/Directing,260
+778,licet,licet,even though,Conjunction,,Justice,0
+779,cinis cineris m./f.,cinis,"ashes, embers",Noun: 3rd Declension,3rd Declension,Air and Fire,12
+780,cōnsistō -sistere -stitī,cōnsistō,"take position; consist in, be composed of",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Speech/Oratory,260
+781,recēns -ntis,recēns,"fresh, new",Adjective: 3rd Declension,3rd Declension,Time,71
+782,aliter,aliter,"otherwise, differently",Adverb,,Conjunctions/Adverbs,0
+783,laedō laedere laesī laesum,laedō,"injure by striking, hurt",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Violence,260
+784,probō -āre,probō,"approve, prove; convince one (dat.) of a thing (acc.)",Verb: 1st Conjugation,1st Conjugation,Verbs of Compelling/Directing,227
+785,doleō -ēre doluī,doleō,"feel pain or grief, grieve",Verb: 2nd Conjugation,2nd Conjugation,Emotions,227
+786,quārē,quārē,how? why?,Adverb,,Pronouns/Interrogatives,0
+787,antequam,antequam,before,Conjunction,,Time,0
+788,reliquus -a -um,reliquus,"remaining, rest",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Measurement,84
+789,semel,semel,once,Adverb,,Time,0
+790,ōdī ōdisse,ōdī,hate,Verb: Irregular,Irregular,Emotions,98
+791,sīcut,sīcut,just as,Adverb,,Conjunctions/Adverbs,0
+792,peccō -āre,peccō,"commit a wrong, injure",Verb: 1st Conjugation,1st Conjugation,Justice,227
+793,sēnsus -ūs m.,sēnsus,"feeling, emotion, sense",Noun: 4th Declension,4th Declension,Emotions,12
+794,exsilium -ī n.,exsilium,"exile, banishment",Noun: 2nd Declension,2nd Declension,Travel,11
+795,cor cordis n.,cor,"heart; cordī est, it is pleasing to (+ dat.)",Noun: 3rd Declension,3rd Declension,The Body,12
+796,dēnique,dēnique,finally,Adverb,,Time,0
+797,sapientia -ae f.,sapientia,wisdom,Noun: 1st Declension,1st Declension,Education/Knowledge,12
+798,statim,statim,immediately,Adverb,,Time,0
+799,accidō -cidere -cidī,accidō,fall; happen,Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Motion,260
+800,dēcernō -cernere -crēvī -crētum,dēcernō,"determine, decide",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Education/Knowledge,260
+801,occīdō -cīdere -cīdī -cīsum,occīdō,"kill, cut down",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Violence,326
+802,dēscendō -scendere -scendī -scēnsum,dēscendō,"climb down, descend",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Travel,260
+803,hiems hiemis f.,hiems,winter,Noun: 3rd Declension,3rd Declension,Lengths of Time,12
+804,contineō -tinēre -tinuī -tentum,contineō,"contain, restrain",Verb: 2nd Conjugation,2nd Conjugation,Verbs of Compelling/Directing,227
+805,dēferō -ferre -tulī -lātum,dēferō,"carry away, report",Verb: Irregular,Irregular,Verbs of Transport,259
+806,oportet -ēre -uit,oportet,"it is proper, right (+ acc. + infin.)",Verb: Impersonal,,Social Life,0
+807,tribūnus -ī m.,tribūnus,"tribune, title of various Roman officials, as mīlitum, plēbis, aerāriī",Noun: 2nd Declension,2nd Declension,The City,12
+808,bōs bovis m.,bōs,ox; gen. pl. boum,Noun: 3rd Declension,3rd Declension,Animals/Plants,15
+809,īrāscor īrāscī īrātus sum,īrāscor,grow angry; īrātus -a -um: angry,Verb: Deponent,Deponent,Emotions,228
+810,aeger aegra aegrum,aeger,sick,Adjective: 1st and 2nd Declension,1st and 2nd Declension,Life and Being,84
+811,forum -ī n.,forum,"market-place, forum",Noun: 2nd Declension,2nd Declension,The City,12
+812,offerō offerre obtulī oblātum,offerō,"present, offer, expose",Verb: Irregular,Irregular,Verbs of Transport,484
+813,revocō -āre,revocō,"call back, recall",Verb: 1st Conjugation,1st Conjugation,Social Life,227
+814,cingō cingere cīnxī cīnctum,cingō,"encircle, surround, gird",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,War and Peace,260
+815,integer -gra -grum:,integer,"untouched, fresh, complete, whole",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Personality Traits/Characteristics,84
+816,validus -a -um,validus,strong,Adjective: 1st and 2nd Declension,1st and 2nd Declension,Personality Traits/Characteristics,84
+817,alō alere aluī alitum,alō,nourish,Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Life and Being,326
+818,flōs flōris m.,flōs,"flower, bloom",Noun: 3rd Declension,3rd Declension,Animals/Plants,12
+819,īctus -ūs m.,īctus,"blow, stroke",Noun: 4th Declension,4th Declension,Violence,12
+820,colligō -ere -lēgī -lēctum,colligō,"gather together, collect",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Verbs of Compelling/Directing,517
+821,pergō pergere perrēxī perrēctum,pergō,"continue, proceed; awaken",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Motion,260
+822,praesēns -ntis,praesēns,"present, in person, ready",Adjective: 3rd Declension,3rd Declension,Place,71
+823,rēctus -a -um,rēctus,"straight, direct",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Measurement,84
+824,lātus -a -um,lātus,"broad, wide",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Measurement,84
+825,praeceptum -ī n.,praeceptum,"rule, precept; command",Noun: 2nd Declension,2nd Declension,Justice,12
+826,recēdō -cēdere -cessī -cessum,recēdō,"step back, recoil, recede, withdraw",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Motion,260
+827,utrum,utrum,whether; utrum ... an: whether ... or,Conjunction,,Conjunctions/Adverbs,0
+828,famēs -is f.,famēs,"hunger, famine",Noun: 3rd Declension,3rd Declension,Life and Being,12
+829,pariō parere peperī partum,pariō,"bring forth, give birth to; accomplish",Verb: 3rd Conjugation -iō,3rd Conjugation -iō,Life and Being,591
+830,appāreō -ēre -uī,appāreō,"appear, become visible",Verb: 2nd Conjugation,2nd Conjugation,Vision,227
+831,quōmodo,quōmodo,"in what way, how?",Conjunction,,Pronouns/Interrogatives,0
+832,error -ōris m.,error,"wandering; error, mistake",Noun: 3rd Declension,3rd Declension,Travel,12
+833,"forsitan, fortasse","forsitan,","perhaps, perchance",Adverb,,Conjunctions/Adverbs,0
+834,convertō -vertere -vertī -versum,convertō,"turn about, turn, change",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Motion,260
+835,proficīscor -ficīscī -fectus sum,proficīscor,"set forth, go",Verb: Deponent,Deponent,Travel,228
+836,secundus -a -um,secundus,following; favorable; (as numeral) second,Adjective: 1st and 2nd Declension,1st and 2nd Declension,Measurement,84
+837,aperiō aperīre aperuī apertum,aperiō,open,Verb: 4th Conjugation,4th Conjugation,The House,277
+838,castus -a -um,castus,"pure, spotless, chaste",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Personality Traits/Characteristics,84
+839,iūdex iūdicis m.,iūdex,"judge, juror",Noun: 3rd Declension,3rd Declension,Justice,12
+840,lapis lapidis m.,lapis,stone,Noun: 3rd Declension,3rd Declension,Earth and Water,24
+841,nimis or nimium,nimis,excessively,Adverb,,Personality Traits/Characteristics,0
+842,onus oneris n.,onus,"load, burden",Noun: 3rd Declension,3rd Declension,Measurement,12
+843,opera -ae f.,opera,"labor, activity, work",Noun: 1st Declension,1st Declension,Business/Money,12
+844,pauper -eris,pauper,"poor, lowly",Adjective: 3rd Declension,3rd Declension,Business/Money,71
+845,āēr āeris m.,āēr,air,Noun: 3rd Declension,3rd Declension,Air and Fire,12
+846,negōtium -ī n.,negōtium,business,Noun: 2nd Declension,2nd Declension,Business/Money,11
+847,pāreō pārēre pāruī,pāreō,obey,Verb: 2nd Conjugation,2nd Conjugation,Verbs of Compelling/Directing,227
+848,subitō,subitō,"suddenly, unexpectedly",Adverb,,Time,0
+849,argentum -ī n.,argentum,"silver, money",Noun: 2nd Declension,2nd Declension,Business/Money,12
+850,ūtilis -e,ūtilis,useful,Adjective: 3rd Declension,3rd Declension,Making/Doing,73
+851,aethēr aetheris n.,aethēr,"pure upper air, ether, heaven, sky",Noun: 3rd Declension,3rd Declension,Air and Fire,12
+852,mereō merēre meruī meritum,mereō,"deserve, merit; serve as a soldier",Verb: 2nd Conjugation,2nd Conjugation,Business/Money,227
+853,portō -āre,portō,carry a load,Verb: 1st Conjugation,1st Conjugation,Measurement,227
+854,proprius -a -um,proprius,"one’s own, peculiar",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Pronouns/Interrogatives,84
+855,avis -is f.,avis,bird,Noun: 3rd Declension,3rd Declension,Animals/Plants,12
+856,vanus -a -um,vanus,"empty; false, deceitful",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Deception,84
+857,māteria -ae f.,māteria,"material, subject matter; timber, lumber",Noun: 1st Declension,1st Declension,Speech/Oratory,12
+858,paucī -ae -a,paucī,"few, a few",Adjective: 1st and 2nd Declension,,Measurement,0
+859,voluntās -ātis f.,voluntās,"wish, desire",Noun: 3rd Declension,3rd Declension,Emotions,12
+860,ēgregius -a -um,ēgregius,"distinguished, uncommon",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Personality Traits/Characteristics,84
+861,difficilis -e,difficilis,"not easy, hard, difficult",Adjective: 3rd Declension,3rd Declension,Personality Traits/Characteristics,73
+862,gladius -ī m.,gladius,sword,Noun: 2nd Declension,2nd Declension,War and Peace,12
+863,cibus -ī m.,cibus,food,Noun: 2nd Declension,2nd Declension,Life and Being,12
+864,certō -āre,certō,"decide by contest; fight, compete, vie",Verb: 1st Conjugation,1st Conjugation,Athletics,227
+865,initium -ī n.:,initium,beginning,Noun: 2nd Declension,2nd Declension,Time,11
+866,pertineō -tinēre -tinuī,pertineō,"extend over, reach; refer to, pertain to, be the business of",Verb: 2nd Conjugation,2nd Conjugation,Education/Knowledge,227
+867,quattuor,quattuor,four,Adjective: Numeral,Numeral,Measurement,52
+868,turbō -āre,turbō,"disturb, confuse",Verb: 1st Conjugation,1st Conjugation,Speech/Oratory,227
+869,cōnsūmō -sūmere -sūmpsī -sūmptum,cōnsūmō,"to use up, consume",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Life and Being,260
+870,corrumpō -rumpere -rūpī -ruptum,corrumpō,"break up, destroy, ruin",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Violence,260
+871,incidō incidere incidī,incidō,"fall upon, fall into; happen",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Motion,326
+872,"paulō, paulum","paulō,","to only a small extent, slightly, a little",Adverb,,Measurement,0
+873,hospes hospitis m.,hospes,"guest, guest-friend; stranger; host",Noun: 3rd Declension,3rd Declension,Social Life,12
+874,rīdeō -ēre rīsī rīsum,rīdeō,"laugh, laugh at",Verb: 2nd Conjugation,2nd Conjugation,Emotions,227
+875,aevum -ī n.,aevum,"eternity; lifetime, age",Noun: 2nd Declension,2nd Declension,Lengths of Time,12
+876,audāx audācis,audāx,"bold, daring; reckless",Adjective: 3rd Declension,3rd Declension,Personality Traits/Characteristics,71
+877,posterus -a -um,posterus,"next, later",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Time,84
+878,praetor -ōris m.,praetor,"praetor, one of the chief Roman magistrates",Noun: 3rd Declension,3rd Declension,The City,12
+879,rūs rūris n.,rūs,country,Noun: 3rd Declension,3rd Declension,Geography,14
+880,differō differre distulī dīlātum,differō,"scatter; publish, divulge; differ; defer, postpone",Verb: Irregular,Irregular,Making/Doing,259
+881,vītō -āre,vītō,"avoid, shun",Verb: 1st Conjugation,1st Conjugation,Social Life,227
+882,prīvātus -a -um,prīvātus,"personal, private",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Social Life,84
+883,serviō -īre,serviō,"be a slave, serve (+ dat.)",Verb: 4th Conjugation,4th Conjugation,The Household,277
+884,vereor verērī veritus sum,vereor,"fear, stand in awe of",Verb: Deponent,Deponent,Emotions,195
+885,ingredior -gredī -gressus sum:,ingredior,"step in, enter",Verb: Deponent,Deponent,Motion,228
+886,addūcō -ere -dūxī -ductum,addūcō,"lead to, induce",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Verbs of Compelling/Directing,260
+887,hortor hortārī hortātus sum,hortor,"urge strongly, advise, exhort",Verb: Deponent,Deponent,Speech/Oratory,195
+888,reus -ī m.,reus,defendant,Noun: 2nd Declension,2nd Declension,Justice,12
+889,scīlicet,scīlicet,"certainly, of course",Adverb,,Conjunctions/Adverbs,0
+890,comparō -āre,comparō,"get ready, provide; compare",Verb: 1st Conjugation,1st Conjugation,Business/Money,227
+891,perpetuus -a -um,perpetuus,"unbroken, perpetual",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Lengths of Time,84
+892,dēsīderō -āre,dēsīderō,"long for, desire greatly",Verb: 1st Conjugation,1st Conjugation,Love,227
+893,celebrō -āre,celebrō,"frequent, throng, crowd",Verb: 1st Conjugation,1st Conjugation,The City,227
+894,cōnficiō -ficere -fēcī -fectum,cōnficiō,"complete, accomplish; destroy, kill, consume",Verb: 3rd Conjugation -iō,3rd Conjugation -iō,Violence,310
+895,intendō -tendere -tendī -tentum:,intendō,"stretch out, strain",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Motion,260
+896,iūrō -āre,iūrō,"take an oath, swear; iūs iūrandum, oath",Verb: 1st Conjugation,1st Conjugation,Justice,227
+897,sōlum,sōlum,"only, merely",Adverb,,Measurement,0
+898,auctōritās -ātis f.,auctōritās,"influence, clout, authority",Noun: 3rd Declension,3rd Declension,Social Life,12
+899,iaciō iacere iēcī iactum,iaciō,"throw, hurl",Verb: 3rd Conjugation -iō,3rd Conjugation -iō,Athletics,260
+900,labōrō -āre,labōrō,"toil, work; be in trouble or distress",Verb: 1st Conjugation,1st Conjugation,Business/Money,227
+901,liber librī m.,liber,book,Noun: 2nd Declension,2nd Declension,Writing/Poetry,22
+902,lūna -ae f.,lūna,moon,Noun: 1st Declension,1st Declension,Air and Fire,12
+903,prōtinus,prōtinus,"at once, forthwith",Adverb,,Time,0
+904,aequē,aequē,equally,Adverb,,Justice,0
+905,cōnor cōnārī cōnātus sum,cōnor,"try, attempt",Verb: Deponent,Deponent,Making/Doing,195
+906,cupīdō -inis f.,cupīdō,"desire, eagerness, craving",Noun: 3rd Declension,3rd Declension,Love,24
+907,ferē,ferē,almost,Adverb,,Conjunctions/Adverbs,0
+908,īnsula -ae f.:,īnsula,island,Noun: 1st Declension,1st Declension,Geography,12
+909,fīlia -ae f.; fīlius -ī m.,fīlia,daughter; son,Noun: 1st Declension,1st Declension,The Household,12
+910,narrō -āre,narrō,"relate, recount",Verb: 1st Conjugation,1st Conjugation,Speech/Oratory,227
+911,necessitās -tātis f.,necessitās,"necessity, need",Noun: 3rd Declension,3rd Declension,Business/Money,12
+912,ēgredior ēgredī ēgressus sum,ēgredior,"stride out, depart, disembark from (+ abl.)",Verb: Deponent,Deponent,Travel,228
+913,poēta -ae m.,poēta,poet,Noun: 1st Declension,1st Declension,Writing/Poetry,12
+914,decem,decem,ten,Adjective: Numeral,Numeral,Measurement,53
+915,amplus -a -um,amplus,"large, spacious",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Measurement,84
+916,aptus -a -um,aptus,"fit, suitable",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Personality Traits/Characteristics,84
+917,cōnsequor -sequī -secūtus sum,cōnsequor,"follow up, overtake, attain",Verb: Deponent,Deponent,Motion,228
+918,frequēns -ntis,frequēns,"in large numbers, often",Adjective: 3rd Declension,3rd Declension,Measurement,71
+919,nūntius -ī m.,nūntius,messenger; news,Noun: 2nd Declension,2nd Declension,Travel,11
+920,condīciō -ōnis f.,condīciō,"agreement, condition",Noun: 3rd Declension,3rd Declension,Business/Money,12
+921,convīvium -iī n.,convīvium,"banquet, feast",Noun: 2nd Declension,2nd Declension,Social Life,11
+922,foedus -a -um,foedus,foul,Adjective: 1st and 2nd Declension,1st and 2nd Declension,Other Senses,84
+923,fruor fruī frūctus sum,fruor,"enjoy the produce of, profit by, use (+ abl.)",Verb: Deponent,Deponent,Emotions,421
+924,num,num,interrogative particle implying negative answer,Adverb,,Pronouns/Interrogatives,0
+925,albus -a -um,albus,white,Adjective: 1st and 2nd Declension,1st and 2nd Declension,Vision,84
+926,damnum -ī n.,damnum,"damage, injury",Noun: 2nd Declension,2nd Declension,Violence,12
+927,frūctus -ūs m.,frūctus,"fruit, crops; enjoyment, delight",Noun: 4th Declension,4th Declension,Animals/Plants,12
+928,cēnseō cēnsēre cēnsuī cēnsum,cēnseō,"assess, rate; think, decide",Verb: 2nd Conjugation,2nd Conjugation,Education/Knowledge,293
+929,prōdō prōdere prōdidī prōditum,prōdō,"publish, hand down; give over, betray",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Verbs of Transport,260
+930,prōpōnō -pōnere -posuī -positum,prōpōnō,"put forth, propose, present",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Speech/Oratory,260
+931,īnstituō -stituere -stituī -stitūtum:,īnstituō,undertake; equip,Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Making/Doing,260
+932,item,item,likewise,Adverb,,Conjunctions/Adverbs,0
+933,magister magistrī m.,magister,"master, chief",Noun: 2nd Declension,2nd Declension,Education/Knowledge,12
+934,stella -ae f.,stella,star,Noun: 1st Declension,1st Declension,Air and Fire,12
+935,ēdūcō -dūcere -dūxī -ductum,ēdūcō,lead forth,Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Verbs of Compelling/Directing,485
+936,frūmentum -ī n.,frūmentum,grain,Noun: 2nd Declension,2nd Declension,Animals/Plants,12
+937,suscipiō -cipere -cēpī ceptum,suscipiō,take up,Verb: 3rd Conjugation -iō,3rd Conjugation -iō,Verbs of Transport,260
+938,quasi,quasi,as if,Adverb,,Conjunctions/Adverbs,0
+939,sacerdōs -dōtis m./f.,sacerdōs,"priest, priestess",Noun: 3rd Declension,3rd Declension,Religion,12
+940,vīcīnus -a -um,vīcīnus,"neighboring, near",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Geography,84
+941,caveō cavēre cāvī cautum,caveō,"be on guard, beware",Verb: 2nd Conjugation,2nd Conjugation,Violence,227
+942,ēligō ēligere ēlēgī ēlēctum,ēligō,"pick out, select",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,The City,260
+943,familia -ae f.,familia,"household, family",Noun: 1st Declension,1st Declension,The Household,12
+944,paene,paene,almost,Adverb,,Conjunctions/Adverbs,0
+945,praecipiō -cipere -cēpī -ceptum,praecipiō,"anticipate, advise, warn",Verb: 3rd Conjugation -iō,3rd Conjugation -iō,Speech/Oratory,260
+946,sānus -a -um,sānus,"sound, sane",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Life and Being,84
+947,potis -e,potis,"powerful, able",Adjective: 3rd Declension,3rd Declension,Personality Traits/Characteristics,53
+948,prīncipium -ī n.,prīncipium,beginning,Noun: 2nd Declension,2nd Declension,Time,11
+949,sepulcrum -ī n.,sepulcrum,"place of burial, tomb, grave",Noun: 2nd Declension,2nd Declension,Life and Being,12
+950,mortālis -e,mortālis,"liable to death, mortal; (as subst.) a mortal",Adjective: 3rd Declension,3rd Declension,Life and Being,73
+951,epistula -ae f.,epistula,letter,Noun: 1st Declension,1st Declension,Writing/Poetry,12
+952,inimīcus -a -um:,inimīcus,unfriendly; (as subst.) enemy,Adjective: 1st and 2nd Declension,1st and 2nd Declension,Personality Traits/Characteristics,84
+953,interrogō -āre,interrogō,"put a question to, ask (+ acc.)",Verb: 1st Conjugation,1st Conjugation,Speech/Oratory,227
+954,cōnsuētūdo -inis f.,cōnsuētūdo,"custom, habit",Noun: 3rd Declension,3rd Declension,Personality Traits/Characteristics,12
+955,illūc,illūc,to that place,Adverb,,Place,0
+956,dīgnitās -ātis f.,dīgnitās,"worth, reputation, honor",Noun: 3rd Declension,3rd Declension,Personality Traits/Characteristics,12
+957,fugō -āre,fugō,put to flight,Verb: 1st Conjugation,1st Conjugation,Travel,227
+958,afficiō -ficere -fēcī -fectum,afficiō,"affect, visit with (+ abl.)",Verb: 3rd Conjugation -iō,3rd Conjugation -iō,Social Life,260
+959,adhibeō -hibēre -hibuī -hibitum,adhibeō,apply,Verb: 2nd Conjugation,2nd Conjugation,Making/Doing,227
+960,caelestis -e,caelestis,"from or of heaven; caelestēs, the gods",Adjective: 3rd Declension,3rd Declension,Air and Fire,73
+961,mulier -eris f.,mulier,woman,Noun: 3rd Declension,3rd Declension,People,12
+962,dīvus -a -um,dīvus,"divine, godlike; (as subst.) a god",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Religion,64
+963,arbitror arbitrārī arbitrātus sum,arbitror,"consider, think",Verb: Deponent,Deponent,Education/Knowledge,195
+964,posteā,posteā,afterwards,Adverb,,Time,0
+965,aedēs -is f.,aedēs,building; (pl.) house,Noun: 3rd Declension,3rd Declension,The House,14
+966,fābula -ae f.,fābula,"account, tale, story",Noun: 1st Declension,1st Declension,Writing/Poetry,12
+967,celeriter,celeriter,quickly,Adverb,,Time,0
+968,plērus- plēra- plērumque,plērus-,"the greater part, very many, most, the majority",Adjective: 1st and 2nd Declension,,Measurement,0
+969,quiēscō quiēscere quiēvī quiētum,quiēscō,keep quiet; sleep,Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Life and Being,260
+970,quotiēns,quotiēns,"interr. how many times? how often? rel. as often as, whenever",Adverb,,Pronouns/Interrogatives,0
+971,scientia -ae f.,scientia,knowledge,Noun: 1st Declension,1st Declension,Education/Knowledge,12
+972,cōnfiteor cōnfitērī cōnfessus sum,cōnfiteor,"admit (a fact), confess (a crime); reveal, disclose",Verb: Deponent,Deponent,Justice,195
+973,dīligō -ligere -lēxī -lēctum,dīligō,"choose, cherish, love",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Love,485
+974,plērumque,plērumque,generally,Adverb,,Measurement,0
+975,dormiō -īre,dormiō,sleep,Verb: 4th Conjugation,4th Conjugation,Life and Being,277
+976,volucris -is f./m.,volucris,bird,Noun: 3rd Declension,3rd Declension,Animals/Plants,12
+977,volucer -cris -cre,volucer,flying,Adjective: 3rd Declension,3rd Declension,Animals/Plants,96
+978,creō -āre,creō,"produce, create; elect, choose",Verb: 1st Conjugation,1st Conjugation,Making/Doing,227
+979,fidēlis -e,fidēlis,faithful,Adjective: 3rd Declension,3rd Declension,Personality Traits/Characteristics,73
+980,indicō -āre,indicō,"point out, show, make known",Verb: 1st Conjugation,1st Conjugation,Speech/Oratory,485
+981,hodiē,hodiē,today,Adverb,,Lengths of Time,0
+982,disciplīna -ae f.,disciplīna,"training, instruction; learning, discipline",Noun: 1st Declension,1st Declension,Education/Knowledge,12
+983,vērē,vērē,truly,Adverb,,Speech/Oratory,0
+984,aegrē,aegrē,with difficulty,Adverb,,Life and Being,0
+985,fore,fore,,Verb: Irregular,,Life and Being,0
+986,advertō -vertere -vertī -versum,advertō,turn towards,Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Motion,260
+987,adveniō -īre -vēnī -ventum,adveniō,"come to, arrive at",Verb: 4th Conjugation,4th Conjugation,Travel,277
+988,pendō pendere pependī pēnsum,pendō,"weigh, hang, suspend; pay",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Business/Money,260
+989,studeō -ēre -uī,studeō,"be eager, be zealous, care for (+ dat.)",Verb: 2nd Conjugation,2nd Conjugation,Emotions,161
+990,ascendō -ere -scendī -scēnsum,ascendō,"climb up, ascend",Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Travel,260
+991,vulgō,vulgō,commonly,Adverb,,The City,0
+992,breviter,breviter,briefly,Adverb,,Measurement,0
+993,fors fortis f.,fors,chance,Noun: 3rd Declension,3rd Declension,Religion,12
+994,fēlīciter,fēlīciter,luckily,Adverb,,Personality Traits/Characteristics,0
+995,revertō -vertere -vertī,revertō,turn back,Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Motion,194
+996,ēdīcō -dīcere -dīxī -dictum,ēdīcō,declare,Verb: 3rd Conjugation -ō,3rd Conjugation -ō,Speech/Oratory,260
+997,mundus -a -um,mundus,"clean, neat, elegant",Adjective: 1st and 2nd Declension,1st and 2nd Declension,Personality Traits/Characteristics,84

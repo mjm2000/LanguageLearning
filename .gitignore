@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+data/json/
+result
+result/
+.direnv/
+openai_key
+.env
+.latin-read-progress.json
+.latin-study-progress.json

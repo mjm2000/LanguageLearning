@@ -1,0 +1,6 @@
+edge-tts>=7.0.0
+orthography2ipa>=7.0.0
+openai>=1.0.0
+
+# Optional: free local Latin neural TTS (facebook/mms-tts-lat)
+# pip install torch transformers scipy
