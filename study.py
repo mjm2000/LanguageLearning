@@ -17,6 +17,8 @@ ROOT = Path(os.environ["LATIN_ROOT"]) if "LATIN_ROOT" in os.environ else Path(__
 DEFAULT_JSON = ROOT / "latin-core-1000.json"
 PROGRESS_FILE = Path.cwd() / ".latin-study-progress.json"
 PROGRESS_VERSION = 2
+DEFAULT_FROM_RANK = 1
+DEFAULT_TO_RANK = 100
 
 CASE_ORDER = ["Nom", "Gen", "Dat", "Acc", "Abl", "Voc"]
 NUMBER_ORDER = ["Sing", "Plur"]
@@ -437,25 +439,13 @@ def run_session(
     drills: list[FormDrill],
     mastered: set[str],
     *,
+    scoped_form_keys: frozenset[str],
     total_forms: int,
-) -> set[str]:
-    queue = drills.copy()
-    retry: list[FormDrill] = []
-    total = len(queue)
+) -> tuple[set[str], bool]:
+    total = len(drills)
 
-    while queue or retry:
-        if queue:
-            drill = queue.pop(0)
-        else:
-            print("\n--- Review missed forms ---")
-            queue = retry
-            retry = []
-            total = len(queue)
-            if not queue:
-                break
-            drill = queue.pop(0)
-
-        remaining = len(queue) + len(retry) + 1
+    for index, drill in enumerate(drills):
+        remaining = total - index
         print_drill(drill, remaining=remaining, total=total)
 
         while True:
@@ -469,30 +459,30 @@ def run_session(
             if lowered in {"q", "quit", "exit"}:
                 save_progress(mastered, total_forms=total_forms)
                 print("\nProgress saved.")
-                return mastered
+                return mastered, False
             if lowered in {"?", "hint"}:
                 reveal_drill(drill)
                 continue
             if lowered in {"s", "skip"}:
-                retry.append(drill)
-                print("Skipped — will show again later.")
+                print("Skipped — will come back next pass.")
                 break
 
             if drill.check(answer):
                 if drill.form_key not in mastered:
                     mastered.add(drill.form_key)
                     save_progress(mastered, total_forms=total_forms)
+                    scoped_done = sum(1 for k in scoped_form_keys if k in mastered)
                     print(f"✓ Correct — {drill.latin_form}")
-                    print(f"  Saved ({len(mastered)}/{total_forms} forms mastered).")
+                    print(f"  Saved ({scoped_done}/{total_forms} forms mastered in range).")
                 else:
                     print(f"✓ Correct — {drill.latin_form}")
                 break
 
             print(f"✗ Not quite. Expected: {drill.latin_form}")
-            retry.append(drill)
+            print("  Will come back next pass.")
             break
 
-    return mastered
+    return mastered, True
 
 
 def word_completion_stats(
@@ -518,22 +508,39 @@ def main() -> None:
             "During a session:\n"
             "  type the Latin form and press Enter\n"
             "  ?       reveal the answer (form stays in rotation)\n"
-            "  skip    try again later this session\n"
+            "  skip    try again on the next pass\n"
             "  quit    save and exit\n"
             "\n"
-            "Progress is saved per form in .latin-study-progress.json.\n"
-            "Mastered forms are skipped on the next run.\n"
+            "By default, studies ranks 1–100 and loops until every form in that\n"
+            "range is mastered. Progress is saved per form in\n"
+            ".latin-study-progress.json.\n"
             "\n"
             "Examples:\n"
             "  nix run .#study\n"
             "  nix run .#study -- --shuffle\n"
+            "  nix run .#study -- --all-words\n"
             "  nix run .#study -- --reset"
         ),
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
     parser.add_argument("--file", type=Path, default=DEFAULT_JSON)
-    parser.add_argument("--from-rank", type=int)
-    parser.add_argument("--to-rank", type=int)
+    parser.add_argument(
+        "--from-rank",
+        type=int,
+        default=DEFAULT_FROM_RANK,
+        help=f"First vocabulary rank (default {DEFAULT_FROM_RANK})",
+    )
+    parser.add_argument(
+        "--to-rank",
+        type=int,
+        default=DEFAULT_TO_RANK,
+        help=f"Last vocabulary rank (default {DEFAULT_TO_RANK})",
+    )
+    parser.add_argument(
+        "--all-words",
+        action="store_true",
+        help="Study the full vocabulary list instead of the first 100 words",
+    )
     parser.add_argument("--shuffle", action="store_true", help="Randomize drill order")
     parser.add_argument("--reset", action="store_true", help="Clear saved progress")
     parser.add_argument(
@@ -547,10 +554,14 @@ def main() -> None:
     if not args.file.exists():
         sys.exit(f"Vocabulary file not found: {args.file}")
 
+    from_rank = None if args.all_words else args.from_rank
+    to_rank = None if args.all_words else args.to_rank
+
     all_words = load_words(args.file)
-    scoped = filter_words(all_words, start_rank=args.from_rank, end_rank=args.to_rank)
+    scoped = filter_words(all_words, start_rank=from_rank, end_rank=to_rank)
     _, by_rank = build_drill_index(all_words)
     scoped_drills = [d for entry in scoped for d in by_rank.get(entry["rank"], [])]
+    scoped_form_keys = frozenset(d.form_key for d in scoped_drills)
     total_forms = len(scoped_drills)
 
     if args.reset:
@@ -562,11 +573,19 @@ def main() -> None:
 
     if args.stats:
         remaining = [d for d in scoped_drills if d.form_key not in mastered]
+        scoped_done = sum(1 for k in scoped_form_keys if k in mastered)
         words_done, word_total = word_completion_stats(scoped, by_rank, mastered)
-        print(f"Forms mastered: {len(mastered)}/{total_forms}")
+        scope_label = "full list" if args.all_words else f"ranks {from_rank}–{to_rank}"
+        print(f"Scope: {scope_label}")
+        print(f"Forms mastered: {scoped_done}/{total_forms}")
         print(f"Forms remaining: {len(remaining)}")
         print(f"Words fully mastered: {words_done}/{word_total}")
         return
+
+    if not args.review_mastered and mastered:
+        scoped_mastered = len([d for d in scoped_drills if d.form_key in mastered])
+        if scoped_mastered:
+            print("Mastered forms are skipped. Use --review-mastered to include them.")
 
     study_drills = select_study_drills(
         scoped_drills,
@@ -574,32 +593,60 @@ def main() -> None:
         shuffle=args.shuffle,
         include_mastered=args.review_mastered,
     )
-
-    words_done, word_total = word_completion_stats(scoped, by_rank, mastered)
-    print(
-        f"Latin study — {len(study_drills)} form(s) this session "
-        f"({len(mastered)}/{total_forms} forms mastered, "
-        f"{words_done}/{word_total} words complete)"
-    )
-    if not args.review_mastered and mastered:
-        print("Mastered forms are skipped. Use --review-mastered to include them.")
-
     if not study_drills:
-        print("\nNothing left to study in this range. Use --reset to start over.")
+        words_done, word_total = word_completion_stats(scoped, by_rank, mastered)
+        print(f"\nAll done — {words_done}/{word_total} words fully mastered in this range.")
         return
 
+    scope_label = "full list" if args.all_words else f"ranks {from_rank}–{to_rank}"
+    print(f"Latin study — {scope_label}")
     print("Commands: ? (reveal)  skip  quit")
+
     try:
-        run_session(study_drills, mastered, total_forms=total_forms)
+        pass_num = 0
+        while True:
+            study_drills = select_study_drills(
+                scoped_drills,
+                mastered,
+                shuffle=args.shuffle,
+                include_mastered=args.review_mastered,
+            )
+            if not study_drills:
+                words_done, word_total = word_completion_stats(scoped, by_rank, mastered)
+                print(
+                    f"\nAll done — {words_done}/{word_total} words fully mastered "
+                    f"({total_forms} forms)."
+                )
+                break
+
+            pass_num += 1
+            scoped_mastered = len([d for d in scoped_drills if d.form_key in mastered])
+            words_done, word_total = word_completion_stats(scoped, by_rank, mastered)
+            if pass_num == 1:
+                print(
+                    f"{len(study_drills)} form(s) to go "
+                    f"({scoped_mastered}/{total_forms} forms mastered, "
+                    f"{words_done}/{word_total} words complete)"
+                )
+            else:
+                print(
+                    f"\n--- Pass {pass_num}: {len(study_drills)} form(s) remaining "
+                    f"({scoped_mastered}/{total_forms} forms mastered) ---"
+                )
+
+            mastered, finished = run_session(
+                study_drills,
+                mastered,
+                scoped_form_keys=scoped_form_keys,
+                total_forms=total_forms,
+            )
+            if not finished:
+                remaining = len([d for d in scoped_drills if d.form_key not in mastered])
+                print(f"\n{remaining} form(s) left. Run again to continue.")
+                break
     except KeyboardInterrupt:
         save_progress(mastered, total_forms=total_forms)
         print("\nProgress saved.")
-
-    remaining = len([d for d in scoped_drills if d.form_key not in mastered])
-    if remaining:
-        print(f"\n{remaining} form(s) left. Run again to continue.")
-    else:
-        print("\nAll forms in range mastered.")
 
 
 if __name__ == "__main__":
