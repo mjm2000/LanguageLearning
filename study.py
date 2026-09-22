@@ -17,7 +17,11 @@ from study_sentences import english_context, latin_context
 
 ROOT = Path(os.environ["LATIN_ROOT"]) if "LATIN_ROOT" in os.environ else Path(__file__).parent
 DEFAULT_JSON = ROOT / "latin-core-1000.json"
-PROGRESS_FILE = Path.cwd() / ".latin-study-progress.json"
+def progress_path() -> Path:
+    env = os.environ.get("LATIN_PROGRESS_FILE")
+    if env:
+        return Path(env)
+    return Path.cwd() / ".latin-study-progress.json"
 PROGRESS_VERSION = 2
 DEFAULT_FROM_RANK = 1
 DEFAULT_TO_RANK = 10
@@ -85,7 +89,7 @@ def speech_latin(entry: dict) -> tuple[str, str]:
     return strip_macrons(raw), raw
 
 
-def speech_translation(text: str) -> str:
+def _clean_definition(text: str) -> str:
     text = re.sub(r"\([^)]*\)", "", text)
     text = re.sub(r"→.*$", "", text)
     text = re.sub(r"\s+", " ", text).strip(" ,;")
@@ -97,18 +101,42 @@ def speech_translation(text: str) -> str:
         text,
         flags=re.I,
     )
-    for sep in (";", ":", "—", "→"):
-        if sep in text:
-            text = text.split(sep, 1)[0]
-    if "?" in text:
-        text = text.split("?", 1)[0]
-    if "!" in text:
-        text = text.split("!", 1)[0]
-    text = re.split(r"\s*-\s*", text, maxsplit=1)[0]
-    if "," in text:
-        text = text.split(",", 1)[0]
-    text = re.sub(r"[^\w\s']", " ", text)
-    return re.sub(r"\s+", " ", text).strip()
+    return text
+
+
+def _trim_gloss_piece(piece: str) -> str:
+    piece = piece.strip()
+    if "?" in piece:
+        piece = piece.split("?", 1)[0]
+    if "!" in piece:
+        piece = piece.split("!", 1)[0]
+    piece = re.split(r"\s*-\s*", piece, maxsplit=1)[0]
+    piece = re.sub(r"\s*\+.*", "", piece)
+    piece = re.sub(r"[^\w\s']", " ", piece)
+    return re.sub(r"\s+", " ", piece).strip()
+
+
+def merged_synonyms(text: str) -> str:
+    """Join comma-separated glosses in the head definition (e.g. be / exist)."""
+    text = _clean_definition(text)
+    head = text
+    for sep in (";", ":", "—"):
+        if sep in head:
+            head = head.split(sep, 1)[0]
+    pieces = [_trim_gloss_piece(part) for part in head.split(",")]
+    seen: list[str] = []
+    for piece in pieces:
+        if piece and piece not in seen:
+            seen.append(piece)
+    if not seen:
+        return _trim_gloss_piece(head)
+    if len(seen) == 1:
+        return seen[0]
+    return " / ".join(seen)
+
+
+def speech_translation(text: str) -> str:
+    return merged_synonyms(text).split(" / ", 1)[0]
 
 
 def normalize(text: str) -> str:
@@ -156,6 +184,21 @@ class FormDrill:
 
     def check(self, user_input: str) -> bool:
         return normalize(user_input) == normalize(self.latin_form)
+
+
+def apply_paradigm_form_fix(
+    entry: dict, *, gender: str, number: str, case: str, form: str
+) -> str:
+    """Correct known bad analyzer forms (e.g. quī vs. unusquisque)."""
+    if strip_macrons(entry.get("lemma") or "") != "qui":
+        return form
+    if entry.get("rank") != 3:
+        return form
+    fixes = {
+        ("Masc", "Sing", "Gen"): "cuius",
+        ("Masc", "Sing", "Dat"): "cui",
+    }
+    return fixes.get((gender, number, case), form)
 
 
 def expand_noun_drills(entry: dict, *, english: str, lemma: str, morph: str) -> list[FormDrill]:
@@ -207,6 +250,9 @@ def expand_adjective_drills(entry: dict, *, english: str, lemma: str, morph: str
                 form = cases.get(case)
                 if not form:
                     continue
+                form = apply_paradigm_form_fix(
+                    entry, gender=gender, number=number, case=case, form=form
+                )
                 case_label = CASE_LABELS[case]
                 form_key = f"a:{rank}:{gender}:{number}:{case}"
                 form_prompt = f"{case_label} {number_label} {gender_label}"
@@ -327,7 +373,7 @@ def expand_indeclinable_drill(entry: dict, *, english: str, lemma: str, morph: s
 
 def expand_drills(entry: dict) -> list[FormDrill]:
     lemma, _ = speech_latin(entry)
-    english = speech_translation(entry["translation"])
+    english = merged_synonyms(entry["translation"])
     morph = morph_class(entry)
     paradigm = entry.get("paradigm")
 
@@ -357,11 +403,37 @@ def build_drill_index(words: list[dict]) -> tuple[list[FormDrill], dict[int, lis
     return all_drills, by_rank
 
 
+def drill_to_json(drill: FormDrill, *, include_answer: bool = False) -> dict:
+    payload = {
+        "form_key": drill.form_key,
+        "rank": drill.rank,
+        "lemma": drill.lemma,
+        "english": drill.english,
+        "form_prompt": drill.form_prompt,
+        "morph_class": drill.morph_class,
+        "part_of_speech": drill.part_of_speech,
+        "english_sentence": english_context(drill),
+    }
+    if include_answer:
+        payload["latin_form"] = drill.latin_form
+        payload["latin_sentence"] = latin_context(drill)
+    return payload
+
+
+def find_drill(by_rank: dict[int, list[FormDrill]], form_key: str) -> FormDrill | None:
+    for drills in by_rank.values():
+        for drill in drills:
+            if drill.form_key == form_key:
+                return drill
+    return None
+
+
 def load_progress(by_rank: dict[int, list[FormDrill]]) -> set[str]:
-    if not PROGRESS_FILE.exists():
+    path = progress_path()
+    if not path.exists():
         return set()
     try:
-        data = json.loads(PROGRESS_FILE.read_text(encoding="utf-8"))
+        data = json.loads(path.read_text(encoding="utf-8"))
     except (json.JSONDecodeError, OSError):
         return set()
 
@@ -382,7 +454,25 @@ def save_progress(mastered: set[str], *, total_forms: int) -> None:
         "mastered_count": len(mastered),
         "total_forms": total_forms,
     }
-    PROGRESS_FILE.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
+    path = progress_path()
+    tmp = path.with_suffix(".json.tmp")
+    tmp.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
+    tmp.replace(path)
+
+
+def mark_form_mastered(
+    mastered: set[str],
+    form_key: str,
+    *,
+    scoped_form_keys: frozenset[str],
+) -> tuple[set[str], int, int]:
+    total = len(scoped_form_keys)
+    if form_key in scoped_form_keys and form_key not in mastered:
+        mastered = set(mastered)
+        mastered.add(form_key)
+        save_progress(mastered, total_forms=total)
+    scoped_done = sum(1 for k in scoped_form_keys if k in mastered)
+    return mastered, scoped_done, total
 
 
 def filter_words(

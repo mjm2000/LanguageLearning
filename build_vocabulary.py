@@ -228,6 +228,25 @@ def _generate_forms(gen: Generator, lemma: str, pos_filter: str | None):
     return collected
 
 
+def patch_known_paradigm_errors(entry: dict) -> None:
+    """Fix conflated analyzer forms (quī mixed with unusquisque)."""
+    if entry.get("rank") != 3 or entry.get("lemma") != "quī":
+        return
+    paradigm = entry.get("paradigm")
+    if not isinstance(paradigm, dict):
+        return
+    masc = paradigm.get("Masc")
+    if not isinstance(masc, dict):
+        return
+    sing = masc.get("Sing")
+    if not isinstance(sing, dict):
+        return
+    if sing.get("Gen") == "uniuscuiusque":
+        sing["Gen"] = "cuius"
+    if sing.get("Dat") == "unicuique":
+        sing["Dat"] = "cui"
+
+
 def compact_forms(forms) -> list[dict]:
     return [
         {
@@ -294,6 +313,7 @@ def main() -> None:
                 entry["principal_parts"] = headword.split(";")[0].strip()
                 entry["declension_or_conjugation"] = pos_label.replace("Verb: ", "")
 
+            patch_known_paradigm_errors(entry)
             entries.append(entry)
 
     entries.sort(key=lambda e: e["rank"])

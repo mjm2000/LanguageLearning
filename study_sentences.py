@@ -23,7 +23,8 @@ class MorphInfo:
 
 
 def gloss(word: str) -> str:
-    return word.split(",")[0].split()[0].strip()
+    primary = word.split(" / ", 1)[0]
+    return primary.split(",")[0].split()[0].strip()
 
 
 def gloss_plural(word: str, plural: bool) -> str:
@@ -141,6 +142,8 @@ def _pronoun_english(w: str, morph: MorphInfo) -> str:
     if case == "Nom":
         return f"{w.capitalize()} {'are' if pl else 'is'} here."
     if case == "Gen":
+        if w in {"who", "which", "what"}:
+            return "Whose book is lost?" if not pl else "Whose books are lost?"
         return f"The book of {w} is lost." if not pl else f"The books of {w} are lost."
     if case == "Dat":
         return f"I gave it to {w}."

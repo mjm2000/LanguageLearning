@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Latin Study</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="top">
+        <h1>Latin Study</h1>
+        <p id="scope-label" class="muted"></p>
+        <p id="stats-line" class="stats"></p>
+      </header>
+
+      <section id="card" class="card hidden">
+        <p id="meta" class="meta"></p>
+        <p id="word" class="word"></p>
+        <p id="english" class="english"></p>
+        <p id="prompt" class="prompt"></p>
+        <p id="class" class="class"></p>
+
+        <form id="answer-form" autocomplete="off">
+          <label for="answer">Latin</label>
+          <input id="answer" name="answer" type="text" spellcheck="false" autofocus />
+          <div class="actions">
+            <button type="submit">Check</button>
+            <button type="button" id="hint-btn" class="secondary">Hint</button>
+            <button type="button" id="skip-btn" class="secondary">Skip word</button>
+          </div>
+        </form>
+
+        <div id="feedback" class="feedback hidden" role="status"></div>
+      </section>
+
+      <section id="done" class="card hidden">
+        <h2>All done</h2>
+        <p id="done-text"></p>
+        <button type="button" id="restart-btn">Study again</button>
+      </section>
+
+      <section id="loading" class="card">
+        <p>Loading vocabulary…</p>
+      </section>
+    </main>
+    <script src="/static/app.js"></script>
+  </body>
+</html>

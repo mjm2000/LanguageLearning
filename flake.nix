@@ -18,17 +18,30 @@
           fetchurl = pkgs.fetchurl;
         };
 
-        pythonEnv = python.withPackages (_: [
+        pythonEnv = python.withPackages (ps: [
           pythonPackages.latincy-lexicon
           pythonPackages.edge-tts
           pythonPackages.orthography2ipa
           pythonPackages.openai
+          ps.fastapi
+          ps.uvicorn
         ]);
+
+        src = pkgs.lib.cleanSourceWith {
+          src = ./.;
+          name = "latin-src";
+          filter = path: type:
+            let p = toString path;
+            in !(builtins.match ".*/\\.venv(/.*)?$" p != null)
+            && !(builtins.match ".*/__pycache__(/.*)?$" p != null)
+            && !(builtins.match ".*/\\.direnv(/.*)?$" p != null)
+            && builtins.baseNameOf path != "result";
+        };
 
         latin = pkgs.stdenvNoCC.mkDerivation {
           pname = "latin";
           version = "0.1.0";
-          src = ./.;
+          inherit src;
 
           nativeBuildInputs = [ pkgs.makeWrapper ];
 
@@ -39,14 +52,16 @@
             runHook preInstall
 
             mkdir -p $out/bin $out/share/latin
-            cp ${./build_vocabulary.py} $out/share/latin/build_vocabulary.py
-            cp ${./tts_engines.py} $out/share/latin/tts_engines.py
-            cp ${./read_aloud.py} $out/share/latin/read_aloud.py
-            cp ${./study.py} $out/share/latin/study.py
-            cp ${./study_sentences.py} $out/share/latin/study_sentences.py
-            cp ${./dcc-core-vocabulary.csv} $out/share/latin/dcc-core-vocabulary.csv
-            cp ${./latin-core-1000.json} $out/share/latin/latin-core-1000.json
-            cp ${./latin-core-1000.csv} $out/share/latin/latin-core-1000.csv
+            cp $src/build_vocabulary.py $out/share/latin/build_vocabulary.py
+            cp $src/tts_engines.py $out/share/latin/tts_engines.py
+            cp $src/read_aloud.py $out/share/latin/read_aloud.py
+            cp $src/study.py $out/share/latin/study.py
+            cp $src/study_sentences.py $out/share/latin/study_sentences.py
+            cp $src/study_web.py $out/share/latin/study_web.py
+            cp -r $src/web $out/share/latin/web
+            cp $src/dcc-core-vocabulary.csv $out/share/latin/dcc-core-vocabulary.csv
+            cp $src/latin-core-1000.json $out/share/latin/latin-core-1000.json
+            cp $src/latin-core-1000.csv $out/share/latin/latin-core-1000.csv
 
             makeWrapper ${pythonEnv}/bin/python $out/bin/latin-read \
               --add-flags $out/share/latin/read_aloud.py \
@@ -58,6 +73,17 @@
               --add-flags $out/share/latin/study.py \
               --set LATIN_ROOT $out/share/latin \
               --set PYTHONPATH $out/share/latin
+
+            cat > $out/bin/latin-study-web <<EOF
+            #!${pkgs.bash}/bin/bash
+            set -euo pipefail
+            export LATIN_ROOT="$out/share/latin"
+            export PYTHONPATH="$out/share/latin"
+            export LATIN_PROGRESS_FILE="''${LATIN_PROGRESS_FILE:-\$PWD/.latin-study-progress.json}"
+            cd "''${LATIN_WEB_CWD:-\$PWD}"
+            exec ${pythonEnv}/bin/python $out/share/latin/study_web.py "\$@"
+            EOF
+            chmod +x $out/bin/latin-study-web
 
             makeWrapper ${pythonEnv}/bin/python $out/bin/latin-build \
               --add-flags $out/share/latin/build_vocabulary.py \
@@ -96,6 +122,10 @@
             type = "app";
             program = "${latin}/bin/latin-study";
           };
+          study-web = {
+            type = "app";
+            program = "${latin}/bin/latin-study-web";
+          };
           build = {
             type = "app";
             program = "${latin}/bin/latin-build";
@@ -116,12 +146,14 @@
 
           shellHook = ''
             export LATIN_ROOT="$PWD"
+            export LATIN_PROGRESS_FILE="$PWD/.latin-study-progress.json"
             export PATH="${latin}/bin:$PATH"
 
             echo "Latin vocabulary dev shell"
             echo "  nix run .#read              # replay most recent batch"
             echo "  nix run .#read -- -n        # next 10 words"
             echo "  nix run .#study             # English → Latin drill"
+            echo "  nix run .#study-web         # web study UI"
             echo "  latin-build-analyzer && latin-build"
           '';
         };
